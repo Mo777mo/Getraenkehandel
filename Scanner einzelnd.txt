@@ -1,0 +1,32 @@
+int menge;
+			
+			System.out.println("\n" + "<Bestanderhoehung Vodka> Bitte Menge eingeben:");
+			
+			menge = tastatur.nextInt();
+			getraenk1.bestandErhoehen(menge);
+			System.out.println("Der neue Bestand von " +getraenk1.getName()+ " betraegt:"+getraenk1.getBestand()+ " Flaschen.");
+			System.out.println("\n" + "<Bestanderhoehung Whiskey> Bitte Menge eingeben:");
+			
+			menge = tastatur.nextInt();
+			getraenk2.bestandErhoehen(menge);
+			System.out.println("Der neue Bestand von " +getraenk2.getName()+ " betraegt:"+getraenk2.getBestand()+ " Flaschen.");
+			System.out.println("\n" + "<Bestanderhoehung Wein> Bitte Menge eingeben:");
+			
+			menge = tastatur.nextInt();
+			getraenk3.bestandErhoehen(menge);
+			System.out.println("Der neue Bestand von " +getraenk3.getName()+ " betraegt:"+getraenk3.getBestand()+ " Flaschen.");
+			
+			menge = tastatur.nextInt();
+			getraenk1.getraenkverkaufen(menge);
+			System.out.println("Der neue Bestand nach dem Verkauf von " +getraenk1.getName()+ " betraegt:"+getraenk1.getBestand()+ " Flaschen.");
+			System.out.println(getraenk1.getraenkverkaufen(menge));
+			
+			menge = tastatur.nextInt();
+			getraenk2.getraenkverkaufen(menge);
+			System.out.println("Der neue Bestand nach dem Verkauf von " +getraenk2.getName()+ " betraegt:"+getraenk2.getBestand()+ " Flaschen.");
+			System.out.println(getraenk2.getraenkverkaufen(menge));
+			
+			menge = tastatur.nextInt();
+			getraenk3.getraenkverkaufen(menge);
+			System.out.println("Der neue Bestand nach dem Verkauf von " +getraenk3.getName()+ " betraegt:"+getraenk3.getBestand()+ " Flaschen.");
+			System.out.println(getraenk3.getraenkverkaufen(menge));
