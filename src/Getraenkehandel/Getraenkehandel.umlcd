@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_8KDRULRPEey5gfZI4zs4wQ">
+  <modelElement href="../../Getraenkehandel.uml#_9JhKQLRPEey5gfZI4zs4wQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9oSw8LRPEey5gfZI4zs4wQ" targetItem="_9oe-R7RPEey5gfZI4zs4wQ" sourceItem="_9oSJ4LRPEey5gfZI4zs4wQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_9oTYAbRPEey5gfZI4zs4wQ" targetItem="_9oe-TbRPEey5gfZI4zs4wQ" sourceItem="_9oTYALRPEey5gfZI4zs4wQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9oaFsLRPEey5gfZI4zs4wQ" source="_9oe-MLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9WAuILRPEey5gfZI4zs4wQ"/>
+    <stereotypes xmi:id="_9oaFsbRPEey5gfZI4zs4wQ" name="Reference">
+      <modelElement href="../../Getraenkehandel.uml#_9WBVMLRPEey5gfZI4zs4wQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9oaswLRPEey5gfZI4zs4wQ" text=""/>
+    <sourceRole xmi:id="_9oaswbRPEey5gfZI4zs4wQ" aggregationKind="NONE" name="">
+      <modelElement href="../../Getraenkehandel.uml#_9WAuIbRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9oaswrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9oasw7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9oasxLRPEey5gfZI4zs4wQ" aggregationKind="NONE" name="contentPane" navigable="true">
+      <modelElement href="../../Getraenkehandel.uml#_9U6h8LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9oasxbRPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oasxrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9ob64LRPEey5gfZI4zs4wQ" source="_9oe-MLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9WBVMbRPEey5gfZI4zs4wQ"/>
+    <stereotypes xmi:id="_9ob64bRPEey5gfZI4zs4wQ" name="Reference">
+      <modelElement href="../../Getraenkehandel.uml#_9WCjULRPEey5gfZI4zs4wQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9ob64rRPEey5gfZI4zs4wQ" text=""/>
+    <sourceRole xmi:id="_9ob647RPEey5gfZI4zs4wQ" aggregationKind="NONE" name="">
+      <modelElement href="../../Getraenkehandel.uml#_9WBVMrRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9ob65LRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9ob65bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9ob65rRPEey5gfZI4zs4wQ" aggregationKind="NONE" name="table" navigable="true">
+      <modelElement href="../../Getraenkehandel.uml#_9U7wEbRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9ob657RPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9ob66LRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9odJALRPEey5gfZI4zs4wQ" source="_9oe-MLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9WCjUbRPEey5gfZI4zs4wQ"/>
+    <stereotypes xmi:id="_9odJAbRPEey5gfZI4zs4wQ" name="Reference">
+      <modelElement href="../../Getraenkehandel.uml#_9WDKYLRPEey5gfZI4zs4wQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9odJArRPEey5gfZI4zs4wQ" text=""/>
+    <sourceRole xmi:id="_9odJA7RPEey5gfZI4zs4wQ" aggregationKind="NONE" name="">
+      <modelElement href="../../Getraenkehandel.uml#_9WCjUrRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9odJBLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9odJBbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9odJBrRPEey5gfZI4zs4wQ" aggregationKind="NONE" name="table_1" navigable="true">
+      <modelElement href="../../Getraenkehandel.uml#_9U-zYLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9odJB7RPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9odJCLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_9oeXILRPEey5gfZI4zs4wQ" source="_9oe-MLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9WDKYbRPEey5gfZI4zs4wQ"/>
+    <stereotypes xmi:id="_9oeXIbRPEey5gfZI4zs4wQ" name="Reference">
+      <modelElement href="../../Getraenkehandel.uml#_9WDxcLRPEey5gfZI4zs4wQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_9oeXIrRPEey5gfZI4zs4wQ" text=""/>
+    <sourceRole xmi:id="_9oeXI7RPEey5gfZI4zs4wQ" aggregationKind="NONE" name="">
+      <modelElement href="../../Getraenkehandel.uml#_9WDKYrRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9oeXJLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9oeXJbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_9oeXJrRPEey5gfZI4zs4wQ" aggregationKind="NONE" name="table_2" navigable="true">
+      <modelElement href="../../Getraenkehandel.uml#_9VABgLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9oeXJ7RPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oeXKLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_9o6cALRPEey5gfZI4zs4wQ" sourceAnchor="244.0,0.0" targetAnchor="242.0,365.0" superClass="_9pOlELRPEey5gfZI4zs4wQ" subClass="_9l6yYLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9TBrkLRPEey5gfZI4zs4wQ"/>
+    <bendpoints xmi:id="_90y74LRPEey5gfZI4zs4wQ" sourceY="-104" targetX="273" targetY="28"/>
+    <bendpoints xmi:id="_90zi8LRPEey5gfZI4zs4wQ" sourceX="-273" sourceY="-104" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_9o6cAbRPEey5gfZI4zs4wQ" sourceAnchor="217.0,0.0" targetAnchor="242.0,365.0" superClass="_9pOlELRPEey5gfZI4zs4wQ" subClass="_9nzBsLRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9TGkELRPEey5gfZI4zs4wQ"/>
+    <bendpoints xmi:id="_900KALRPEey5gfZI4zs4wQ" sourceY="-27" targetX="-272" targetY="28"/>
+    <bendpoints xmi:id="_900KAbRPEey5gfZI4zs4wQ" sourceX="272" sourceY="-27" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9oSJ4LRPEey5gfZI4zs4wQ" sourceConnectionVisual="_9oSw8LRPEey5gfZI4zs4wQ" text="Launch the application." item="_9oe-R7RPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9V71oLRPEey5gfZI4zs4wQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_9oTYALRPEey5gfZI4zs4wQ" sourceConnectionVisual="_9oTYAbRPEey5gfZI4zs4wQ" text="Create the frame." item="_9oe-TbRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9V71obRPEey5gfZI4zs4wQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9l6yYLRPEey5gfZI4zs4wQ" name="Getraenk" generalizations="_9o6cALRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9Me-sLRPEey5gfZI4zs4wQ"/>
+    <visualProperties xmi:id="_9l6yYbRPEey5gfZI4zs4wQ" position="436.0,-248.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9l6yYrRPEey5gfZI4zs4wQ" label="+"/>
+    <attributes xmi:id="_9l6yY7RPEey5gfZI4zs4wQ" name="name">
+      <modelElement href="../../Getraenkehandel.uml#_9Uz0QLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9l7ZcLRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9Uz0QbRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9l7ZcbRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9l7ZcrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9l7Zc7RPEey5gfZI4zs4wQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9l7ZdLRPEey5gfZI4zs4wQ" name="preis">
+      <modelElement href="../../Getraenkehandel.uml#_9Uz0QrRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9l7ZdbRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U0bULRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9l7ZdrRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9l7Zd7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9l7ZeLRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9l7ZebRPEey5gfZI4zs4wQ" name="bestand">
+      <modelElement href="../../Getraenkehandel.uml#_9U1CYLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9l7ZerRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U1pcLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9l7Ze7RPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9l7ZfLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9l7ZfbRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9l7ZfrRPEey5gfZI4zs4wQ" name="Getraenk">
+      <modelElement href="../../Getraenkehandel.uml#_9Mgz4LRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9l7Zf7RPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9l7ZgLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l7ZgbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l7ZgrRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9Mha8rRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l7Zg7RPEey5gfZI4zs4wQ" name="Getraenk">
+          <modelElement href="../../Getraenkehandel.uml#_9Me-sLRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9l7ZhLRPEey5gfZI4zs4wQ" name="Getraenk">
+      <modelElement href="../../Getraenkehandel.uml#_9MlsYLRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9l7ZhbRPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9l7ZhrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l7Zh7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l7ZiLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MoIobRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l7ZibRPEey5gfZI4zs4wQ" name="Getraenk">
+          <modelElement href="../../Getraenkehandel.uml#_9Me-sLRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9l7ZirRPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9Mm6gLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l7Zi7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l7ZjLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9l7ZjbRPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9Mm6gbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l7ZjrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l7Zj7RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9l7ZkLRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9Mm6grRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l7ZkbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l7ZkrRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9l7Zk7RPEey5gfZI4zs4wQ" name="lagertemp">
+        <modelElement href="../../Getraenkehandel.uml#_9MnhkLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l7ZlLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l7ZlbRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l7ZlrRPEey5gfZI4zs4wQ" name="setName">
+      <modelElement href="../../Getraenkehandel.uml#_9Mp90LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l7Zl7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AgLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9l8AgbRPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9Mp90bRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AgrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8Ag7RPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AhLRPEey5gfZI4zs4wQ" name="setPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9Mqk4LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8AhbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AhrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9l8Ah7RPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9Mqk4bRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AiLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8AibRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AirRPEey5gfZI4zs4wQ" name="setBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9MtBILRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8Ai7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AjLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9l8AjbRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9MtBIbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AjrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8Aj7RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AkLRPEey5gfZI4zs4wQ" name="kassenzettelDrucken">
+      <modelElement href="../../Getraenkehandel.uml#_9Mu2ULRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8AkbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AkrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l8Ak7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MvdYbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l8AlLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9l8AlbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9MvdYLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AlrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8Al7RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AmLRPEey5gfZI4zs4wQ" name="bestandErhoehen">
+      <modelElement href="../../Getraenkehandel.uml#_9MwEcLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8AmbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AmrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9l8Am7RPEey5gfZI4zs4wQ" name="wert">
+        <modelElement href="../../Getraenkehandel.uml#_9MwEcbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AnLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8AnbRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AnrRPEey5gfZI4zs4wQ" name="getraenkverkaufen">
+      <modelElement href="../../Getraenkehandel.uml#_9Mx5oLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8An7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AoLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l8AobRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MygsLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l8AorRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9l8Ao7RPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9Mx5obRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8ApLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8ApbRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8AprRPEey5gfZI4zs4wQ" name="PreisVeraendern">
+      <modelElement href="../../Getraenkehandel.uml#_9Mzu0LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8Ap7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AqLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9l8AqbRPEey5gfZI4zs4wQ" name="neuerpreis">
+        <modelElement href="../../Getraenkehandel.uml#_9Mzu0bRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9l8AqrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9l8Aq7RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9l8ArLRPEey5gfZI4zs4wQ" name="getName">
+      <modelElement href="../../Getraenkehandel.uml#_9M0V4LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8ArbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8ArrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l8Ar7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9M1kALRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l8AsLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9l8AsbRPEey5gfZI4zs4wQ" name="getPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9M2LELRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8AsrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8As7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l8AtLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9M2LEbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l8AtbRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9l8AtrRPEey5gfZI4zs4wQ" name="getBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9M2yILRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9l8At7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9l8AuLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9l8AubRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9M3ZMLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9l8AurRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9nYyALRPEey5gfZI4zs4wQ" name="Getraenkeverwaltung">
+    <modelElement href="../../Getraenkehandel.uml#_9Ng5cLRPEey5gfZI4zs4wQ"/>
+    <visualProperties xmi:id="_9nYyAbRPEey5gfZI4zs4wQ" position="585.0,161.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9nYyArRPEey5gfZI4zs4wQ" label="+"/>
+    <operations xmi:id="_9nYyA7RPEey5gfZI4zs4wQ" name="main" staticOperation="true">
+      <modelElement href="../../Getraenkehandel.uml#_9NjVsLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nYyBLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nYyBbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nYyBrRPEey5gfZI4zs4wQ" name="args">
+        <modelElement href="../../Getraenkehandel.uml#_9NjVsbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nYyB7RPEey5gfZI4zs4wQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_9nYyCLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9nzBsLRPEey5gfZI4zs4wQ" name="Snack" generalizations="_9o6cAbRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9Nkj0LRPEey5gfZI4zs4wQ"/>
+    <visualProperties xmi:id="_9nzBsbRPEey5gfZI4zs4wQ" position="-82.0,-325.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9nzBsrRPEey5gfZI4zs4wQ" label="+"/>
+    <attributes xmi:id="_9nzBs7RPEey5gfZI4zs4wQ" name="name">
+      <modelElement href="../../Getraenkehandel.uml#_9U2QgLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9nzBtLRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U23kLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9nzBtbRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9nzBtrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9nzBt7RPEey5gfZI4zs4wQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9nzBuLRPEey5gfZI4zs4wQ" name="preis">
+      <modelElement href="../../Getraenkehandel.uml#_9U3eoLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9nzBubRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U4FsLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9nzBurRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9nzBu7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9nzBvLRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9nzBvbRPEey5gfZI4zs4wQ" name="bestand">
+      <modelElement href="../../Getraenkehandel.uml#_9U4FsbRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9nzBvrRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U4swLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9nzBv7RPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9nzBwLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9nzBwbRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9nzBwrRPEey5gfZI4zs4wQ" name="lagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9U5T0LRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9nzBw7RPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U564LRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9nzBxLRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9nzBxbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9nzBxrRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9nzBx7RPEey5gfZI4zs4wQ" name="Snack">
+      <modelElement href="../../Getraenkehandel.uml#_9N57ALRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9nzByLRPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9nzBybRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzByrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzBy7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9N6iErRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzBzLRPEey5gfZI4zs4wQ" name="Snack">
+          <modelElement href="../../Getraenkehandel.uml#_9Nkj0LRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9nzBzbRPEey5gfZI4zs4wQ" name="Snack">
+      <modelElement href="../../Getraenkehandel.uml#_9N7wMLRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9nzBzrRPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9nzBz7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB0LRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzB0bRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9OAosLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzB0rRPEey5gfZI4zs4wQ" name="Snack">
+          <modelElement href="../../Getraenkehandel.uml#_9Nkj0LRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9nzB07RPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9N7wMbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB1LRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB1bRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9nzB1rRPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9N7wMrRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB17RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB2LRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9nzB2bRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9N8XQLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB2rRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB27RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9nzB3LRPEey5gfZI4zs4wQ" name="lagertemp">
+        <modelElement href="../../Getraenkehandel.uml#_9OABoLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB3bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB3rRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB37RPEey5gfZI4zs4wQ" name="setName">
+      <modelElement href="../../Getraenkehandel.uml#_9OB20LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzB4LRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB4bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzB4rRPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9OB20bRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB47RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB5LRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB5bRPEey5gfZI4zs4wQ" name="setPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9OCd4LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzB5rRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB57RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzB6LRPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9ODE8LRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB6bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB6rRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB67RPEey5gfZI4zs4wQ" name="setBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9ODE8bRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzB7LRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB7bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzB7rRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9ODE8rRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB77RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB8LRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB8bRPEey5gfZI4zs4wQ" name="setLagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9ODsALRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzB8rRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB87RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzB9LRPEey5gfZI4zs4wQ" name="lagertemp">
+        <modelElement href="../../Getraenkehandel.uml#_9ODsAbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB9bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB9rRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB97RPEey5gfZI4zs4wQ" name="kassenzettelDrucken">
+      <modelElement href="../../Getraenkehandel.uml#_9OJyoLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzB-LRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzB-bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzB-rRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9OLn0LRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzB-7RPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9nzB_LRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9OKZsLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzB_bRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzB_rRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzB_7RPEey5gfZI4zs4wQ" name="bestandErhoehen">
+      <modelElement href="../../Getraenkehandel.uml#_9OPSMLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCALRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCAbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzCArRPEey5gfZI4zs4wQ" name="wert">
+        <modelElement href="../../Getraenkehandel.uml#_9OP5QLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzCA7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzCBLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzCBbRPEey5gfZI4zs4wQ" name="snackverkaufen">
+      <modelElement href="../../Getraenkehandel.uml#_9OQgULRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCBrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCB7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzCCLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9ORHYbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzCCbRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9nzCCrRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9ORHYLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzCC7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzCDLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzCDbRPEey5gfZI4zs4wQ" name="PreisVeraendern">
+      <modelElement href="../../Getraenkehandel.uml#_9OTjoLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCDrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCD7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9nzCELRPEey5gfZI4zs4wQ" name="neuerpreis">
+        <modelElement href="../../Getraenkehandel.uml#_9OTjobRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9nzCEbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9nzCErRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9nzCE7RPEey5gfZI4zs4wQ" name="getName">
+      <modelElement href="../../Getraenkehandel.uml#_9OYcILRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCFLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCFbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzCFrRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9OYcIbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzCF7RPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9nzCGLRPEey5gfZI4zs4wQ" name="getPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9OZDMLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCGbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCGrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzCG7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9OZDMbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzCHLRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9nzCHbRPEey5gfZI4zs4wQ" name="getBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9Oa4YLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCHrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCH7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzCILRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9ObfcLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzCIbRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9nzCIrRPEey5gfZI4zs4wQ" name="getLagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9OcGgLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9nzCI7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9nzCJLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9nzCJbRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9OcGgbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9nzCJrRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9oe-MLRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke" associationsOut="_9oaFsLRPEey5gfZI4zs4wQ _9ob64LRPEey5gfZI4zs4wQ _9odJALRPEey5gfZI4zs4wQ _9oeXILRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9OkCULRPEey5gfZI4zs4wQ"/>
+    <visualProperties xmi:id="_9oe-MbRPEey5gfZI4zs4wQ" position="514.0,288.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9oe-MrRPEey5gfZI4zs4wQ" label="+"/>
+    <attributes xmi:id="_9oe-M7RPEey5gfZI4zs4wQ" name="contentPane">
+      <modelElement href="../../Getraenkehandel.uml#_9U6h8LRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9oe-NLRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U7wELRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9oe-NbRPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oe-NrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9oe-N7RPEey5gfZI4zs4wQ" name="JPanel">
+        <modelElement href="../../Getraenkehandel.uml#_9Te-kLRPEey5gfZI4zs4wQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9oe-OLRPEey5gfZI4zs4wQ" name="table">
+      <modelElement href="../../Getraenkehandel.uml#_9U7wEbRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9oe-ObRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U8XILRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9oe-OrRPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oe-O7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9oe-PLRPEey5gfZI4zs4wQ" name="JTable">
+        <modelElement href="../../Getraenkehandel.uml#_9UPMgbRPEey5gfZI4zs4wQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9oe-PbRPEey5gfZI4zs4wQ" name="table_1">
+      <modelElement href="../../Getraenkehandel.uml#_9U-zYLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9oe-PrRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9U_acLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9oe-P7RPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oe-QLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9oe-QbRPEey5gfZI4zs4wQ" name="JTable">
+        <modelElement href="../../Getraenkehandel.uml#_9UPMgbRPEey5gfZI4zs4wQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9oe-QrRPEey5gfZI4zs4wQ" name="table_2">
+      <modelElement href="../../Getraenkehandel.uml#_9VABgLRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9oe-Q7RPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9VAokLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9oe-RLRPEey5gfZI4zs4wQ" label="-"/>
+      <cardinality xmi:id="_9oe-RbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9oe-RrRPEey5gfZI4zs4wQ" name="JTable">
+        <modelElement href="../../Getraenkehandel.uml#_9UPMgbRPEey5gfZI4zs4wQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9oe-R7RPEey5gfZI4zs4wQ" comments="_9oSJ4LRPEey5gfZI4zs4wQ" targetConnectionVisual="_9oSw8LRPEey5gfZI4zs4wQ" name="main" staticOperation="true">
+      <modelElement href="../../Getraenkehandel.uml#_9OmekLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9oe-SLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9oe-SbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9oe-SrRPEey5gfZI4zs4wQ" name="args">
+        <modelElement href="../../Getraenkehandel.uml#_9OnFoLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9oe-S7RPEey5gfZI4zs4wQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_9oe-TLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9oe-TbRPEey5gfZI4zs4wQ" comments="_9oTYALRPEey5gfZI4zs4wQ" targetConnectionVisual="_9oTYAbRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke">
+      <modelElement href="../../Getraenkehandel.uml#_9OoTwLRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9oe-TrRPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9oe-T7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9oe-ULRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9oe-UbRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9Oo60rRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9oe-UrRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke">
+          <modelElement href="../../Getraenkehandel.uml#_9OkCULRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_9pOlELRPEey5gfZI4zs4wQ" name="Artikel" subclassedBy="_9o6cALRPEey5gfZI4zs4wQ _9o6cAbRPEey5gfZI4zs4wQ">
+    <modelElement href="../../Getraenkehandel.uml#_9L_PcLRPEey5gfZI4zs4wQ"/>
+    <visualProperties xmi:id="_9pOlEbRPEey5gfZI4zs4wQ" position="165.0,-745.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_9pOlErRPEey5gfZI4zs4wQ" label="+"/>
+    <attributes xmi:id="_9pOlE7RPEey5gfZI4zs4wQ" name="name">
+      <modelElement href="../../Getraenkehandel.uml#_9Uvi0LRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9pOlFLRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9UwJ4LRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9pOlFbRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9pOlFrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9pOlF7RPEey5gfZI4zs4wQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9pOlGLRPEey5gfZI4zs4wQ" name="preis">
+      <modelElement href="../../Getraenkehandel.uml#_9UwJ4bRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9pPMILRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9UxYALRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9pPMIbRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9pPMIrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9pPMI7RPEey5gfZI4zs4wQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9pPMJLRPEey5gfZI4zs4wQ" name="bestand">
+      <modelElement href="../../Getraenkehandel.uml#_9UxYAbRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9pPMJbRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9Ux_ELRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9pPMJrRPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9pPMJ7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9pPMKLRPEey5gfZI4zs4wQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_9pPMKbRPEey5gfZI4zs4wQ" name="lagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9Ux_EbRPEey5gfZI4zs4wQ"/>
+      <stereotypes xmi:id="_9pPMKrRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9UymILRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9pPMK7RPEey5gfZI4zs4wQ" label="#"/>
+      <cardinality xmi:id="_9pPMLLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <type xmi:id="_9pPMLbRPEey5gfZI4zs4wQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_9pPMLrRPEey5gfZI4zs4wQ" name="Artikel">
+      <modelElement href="../../Getraenkehandel.uml#_9MJAcLRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9pPML7RPEey5gfZI4zs4wQ" keyword="create"/>
+      <stereotypes xmi:id="_9pPMMLRPEey5gfZI4zs4wQ" name="LegacyStyledElement">
+        <modelElement href="../../Getraenkehandel.uml#_9MMDwLRPEey5gfZI4zs4wQ"/>
+      </stereotypes>
+      <visibility xmi:id="_9pPMMbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMMrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMM7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MN48LRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMNLRPEey5gfZI4zs4wQ" name="Artikel">
+          <modelElement href="../../Getraenkehandel.uml#_9L_PcLRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9pPMNbRPEey5gfZI4zs4wQ" name="Artikel">
+      <modelElement href="../../Getraenkehandel.uml#_9MPHELRPEey5gfZI4zs4wQ"/>
+      <keywords xmi:id="_9pPMNrRPEey5gfZI4zs4wQ" keyword="create"/>
+      <visibility xmi:id="_9pPMN7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMOLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMObRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MPuJLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMOrRPEey5gfZI4zs4wQ" name="Artikel">
+          <modelElement href="../../Getraenkehandel.uml#_9L_PcLRPEey5gfZI4zs4wQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9pPMO7RPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9MPHEbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMPLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMPbRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9pPMPrRPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9MPHErRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMP7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMQLRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9pPMQbRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9MPuILRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMQrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMQ7RPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_9pPMRLRPEey5gfZI4zs4wQ" name="lagertemp">
+        <modelElement href="../../Getraenkehandel.uml#_9MPuIbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMRbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMRrRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMR7RPEey5gfZI4zs4wQ" name="setName">
+      <modelElement href="../../Getraenkehandel.uml#_9MQ8QLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMSLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMSbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9pPMSrRPEey5gfZI4zs4wQ" name="name">
+        <modelElement href="../../Getraenkehandel.uml#_9MQ8QbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMS7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMTLRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMTbRPEey5gfZI4zs4wQ" name="setPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9MRjULRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMTrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMT7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9pPMULRPEey5gfZI4zs4wQ" name="preis">
+        <modelElement href="../../Getraenkehandel.uml#_9MSKYLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMUbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMUrRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMU7RPEey5gfZI4zs4wQ" name="setBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9MSxcLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMVLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMVbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9pPMVrRPEey5gfZI4zs4wQ" name="bestand">
+        <modelElement href="../../Getraenkehandel.uml#_9MSxcbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMV7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMWLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMWbRPEey5gfZI4zs4wQ" name="setLagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9MTYgLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMWrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMW7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9pPMXLRPEey5gfZI4zs4wQ" name="lagertemp">
+        <modelElement href="../../Getraenkehandel.uml#_9MT_kLRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMXbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMXrRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMX7RPEey5gfZI4zs4wQ" name="getName">
+      <modelElement href="../../Getraenkehandel.uml#_9MT_kbRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMYLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMYbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMYrRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MUmoLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMY7RPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9pPMZLRPEey5gfZI4zs4wQ" name="getPreis">
+      <modelElement href="../../Getraenkehandel.uml#_9MVNsLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMZbRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMZrRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMZ7RPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MVNsbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMaLRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9pPMabRPEey5gfZI4zs4wQ" name="getBestand">
+      <modelElement href="../../Getraenkehandel.uml#_9MV0wLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMarRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMa7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMbLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MV0wbRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMbbRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9pPMbrRPEey5gfZI4zs4wQ" name="getLagertemp">
+      <modelElement href="../../Getraenkehandel.uml#_9MWb0LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMb7RPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMcLRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMcbRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MXC4LRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMcrRPEey5gfZI4zs4wQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_9pPMc7RPEey5gfZI4zs4wQ" name="bestandErhoehen">
+      <modelElement href="../../Getraenkehandel.uml#_9MXp8LRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMdLRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMdbRPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_9pPMdrRPEey5gfZI4zs4wQ" name="menge">
+        <modelElement href="../../Getraenkehandel.uml#_9MXp8bRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMd7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMeLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMebRPEey5gfZI4zs4wQ" name="verkaufen">
+      <modelElement href="../../Getraenkehandel.uml#_9MYRALRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMerRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMe7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMfLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MatQLRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMfbRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9pPMfrRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9MYRAbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMf7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMgLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9pPMgbRPEey5gfZI4zs4wQ" name="kassenzettelDrucken">
+      <modelElement href="../../Getraenkehandel.uml#_9MdJgLRPEey5gfZI4zs4wQ"/>
+      <visibility xmi:id="_9pPMgrRPEey5gfZI4zs4wQ" label="+"/>
+      <cardinality xmi:id="_9pPMg7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_9pPMhLRPEey5gfZI4zs4wQ">
+        <modelElement href="../../Getraenkehandel.uml#_9MdJgrRPEey5gfZI4zs4wQ"/>
+        <type xmi:id="_9pPMhbRPEey5gfZI4zs4wQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_9pPMhrRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+        <modelElement href="../../Getraenkehandel.uml#_9MdJgbRPEey5gfZI4zs4wQ"/>
+        <cardinality xmi:id="_9pPMh7RPEey5gfZI4zs4wQ" label="1" max="1" min="1"/>
+        <type xmi:id="_9pPMiLRPEey5gfZI4zs4wQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_8GfnALRPEey5gfZI4zs4wQ" name="Getraenkehandel">
+    <eAnnotations xmi:id="_8ZMgkLRPEey5gfZI4zs4wQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_8ZMgkbRPEey5gfZI4zs4wQ" source="codegen">
+        <details xmi:id="_8ZNHoLRPEey5gfZI4zs4wQ" key="codegenDirectory" value="/Getraenkehandel/src"/>
+        <details xmi:id="_9lTuYLRPEey5gfZI4zs4wQ" key="AssociatedSourceCode" value="/Getraenkehandel/src/Getraenkehandel/Artikel.java;591832647/1;/Getraenkehandel/src/Getraenkehandel/Getraenk.java;1426588880/1;/Getraenkehandel/src/Getraenkehandel/Getraenkeverwaltung.java;2956096208/1;/Getraenkehandel/src/Getraenkehandel/Snack.java;2626526346/1;/Getraenkehandel/src/Getraenkehandel/oberflaeche_getraenke.java;23191867/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_9JDQMLRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_9JDQMbRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_9JD3QLRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_9JD3QbRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_9JD3QrRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_9JEeULRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_9JFFYLRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_9JFFYbRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_9JGTgLRPEey5gfZI4zs4wQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9JhKQLRPEey5gfZI4zs4wQ" name="Getraenkehandel">
+      <packagedElement xmi:type="uml:Class" xmi:id="_9L_PcLRPEey5gfZI4zs4wQ" name="Artikel">
+        <ownedAttribute xmi:id="_9Uvi0LRPEey5gfZI4zs4wQ" name="name" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9UwJ4bRPEey5gfZI4zs4wQ" name="preis" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9UxYAbRPEey5gfZI4zs4wQ" name="bestand" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9Ux_EbRPEey5gfZI4zs4wQ" name="lagertemp" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VM10LRPEey5gfZI4zs4wQ" name="Artikel" specification="_9MPHELRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VNc4LRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VNc4bRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VNc4rRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VNc47RPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VNc5LRPEey5gfZI4zs4wQ" type="_9L_PcLRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+     this.preis = preis;&#xD;
+     this.bestand = bestand;&#xD;
+     this.lagertemp = lagertemp;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VRHQLRPEey5gfZI4zs4wQ" name="setName" specification="_9MQ8QLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VRHQbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VRuULRPEey5gfZI4zs4wQ" name="setPreis" specification="_9MRjULRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VRuUbRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.preis = preis;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VRuUrRPEey5gfZI4zs4wQ" name="setBestand" specification="_9MSxcLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VRuU7RPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.bestand = bestand;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VSVYLRPEey5gfZI4zs4wQ" name="setLagertemp" specification="_9MTYgLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VSVYbRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.lagertemp = lagertemp;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VSVYrRPEey5gfZI4zs4wQ" name="getName" specification="_9MT_kbRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VSVY7RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VSVZLRPEey5gfZI4zs4wQ" name="getPreis" specification="_9MVNsLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VSVZbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return preis;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VS8cLRPEey5gfZI4zs4wQ" name="getBestand" specification="_9MV0wLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VS8cbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return bestand;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VS8crRPEey5gfZI4zs4wQ" name="getLagertemp" specification="_9MWb0LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VS8c7RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return lagertemp;&#xD;
+   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VS8dLRPEey5gfZI4zs4wQ" name="bestandErhoehen" specification="_9MXp8LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VS8dbRPEey5gfZI4zs4wQ" name="menge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>bestand = bestand + menge;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VUKkLRPEey5gfZI4zs4wQ" name="verkaufen" specification="_9MYRALRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VUKkbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VUKkrRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String ausgabetext;  &#xD;
+   if(bestand>=verkaufsmenge) {&#xD;
+         bestand = bestand - verkaufsmenge;&#xD;
+         ausgabetext = kassenzettelDrucken(verkaufsmenge);}&#xD;
+      else {&#xD;
+         ausgabetext= &quot;Nicht genug Bestand&quot;;}&#xD;
+     return ausgabetext;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VUKk7RPEey5gfZI4zs4wQ" name="kassenzettelDrucken" specification="_9MdJgLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VUKlLRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VUKlbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String kassenzettel;&#xD;
+&#xD;
+     double gesamtpreis;&#xD;
+&#xD;
+     gesamtpreis = preis * verkaufsmenge;&#xD;
+&#xD;
+     kassenzettel = &quot;Name: &quot; + name + &#xD;
+&#xD;
+     &quot;\nVerkaufsmenge: &quot; + verkaufsmenge+&#xD;
+&#xD;
+     &quot;\nPreis in Euro: &quot; + preis +&#xD;
+&#xD;
+     &quot;\nGesamtpreis: &quot; + gesamtpreis +     &#xD;
+&#xD;
+     &quot;\n&quot;;&#xD;
+&#xD;
+     return kassenzettel;&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9MJAcLRPEey5gfZI4zs4wQ" name="Artikel">
+          <eAnnotations xmi:id="_9MJngLRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9MK1oLRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9MN48LRPEey5gfZI4zs4wQ" type="_9L_PcLRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MPHELRPEey5gfZI4zs4wQ" name="Artikel" method="_9VM10LRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9MPuIrRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9MPuI7RPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9MPHEbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MPHErRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MPuILRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MPuIbRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MPuJLRPEey5gfZI4zs4wQ" type="_9L_PcLRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MQ8QLRPEey5gfZI4zs4wQ" name="setName" method="_9VRHQLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MQ8QbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MRjULRPEey5gfZI4zs4wQ" name="setPreis" method="_9VRuULRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MSKYLRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MSxcLRPEey5gfZI4zs4wQ" name="setBestand" method="_9VRuUrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MSxcbRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MTYgLRPEey5gfZI4zs4wQ" name="setLagertemp" method="_9VSVYLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MT_kLRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MT_kbRPEey5gfZI4zs4wQ" name="getName" method="_9VSVYrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MUmoLRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MVNsLRPEey5gfZI4zs4wQ" name="getPreis" method="_9VSVZLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MVNsbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MV0wLRPEey5gfZI4zs4wQ" name="getBestand" method="_9VS8cLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MV0wbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MWb0LRPEey5gfZI4zs4wQ" name="getLagertemp" method="_9VS8crRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MXC4LRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MXp8LRPEey5gfZI4zs4wQ" name="bestandErhoehen" method="_9VS8dLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MXp8bRPEey5gfZI4zs4wQ" name="menge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MYRALRPEey5gfZI4zs4wQ" name="verkaufen" method="_9VUKkLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MYRAbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MatQLRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MdJgLRPEey5gfZI4zs4wQ" name="kassenzettelDrucken" method="_9VUKk7RPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MdJgbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MdJgrRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9Me-sLRPEey5gfZI4zs4wQ" name="Getraenk">
+        <generalization xmi:id="_9TBrkLRPEey5gfZI4zs4wQ" general="_9L_PcLRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9Uz0QLRPEey5gfZI4zs4wQ" name="name" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9Uz0QrRPEey5gfZI4zs4wQ" name="preis" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9U1CYLRPEey5gfZI4zs4wQ" name="bestand" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VUxoLRPEey5gfZI4zs4wQ" name="Getraenk" specification="_9Mgz4LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VUxobRPEey5gfZI4zs4wQ" type="_9Me-sLRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VVYsLRPEey5gfZI4zs4wQ" name="Getraenk" specification="_9MlsYLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VVYsbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VVYsrRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VVYs7RPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VVYtLRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VVYtbRPEey5gfZI4zs4wQ" type="_9Me-sLRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>super(name, preis, bestand, lagertemp);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VVYtrRPEey5gfZI4zs4wQ" name="setName" specification="_9Mp90LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VVYt7RPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VV_wLRPEey5gfZI4zs4wQ" name="setPreis" specification="_9Mqk4LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VV_wbRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.preis = preis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VV_wrRPEey5gfZI4zs4wQ" name="setBestand" specification="_9MtBILRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VV_w7RPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.bestand = bestand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VWm0LRPEey5gfZI4zs4wQ" name="kassenzettelDrucken" specification="_9Mu2ULRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VWm0bRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VWm0rRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		String kassenzettel;&#xD;
+		double gesamtpreis;&#xD;
+		gesamtpreis = preis * verkaufsmenge;&#xD;
+		kassenzettel =&quot;Name:&quot; +name+ &#xD;
+				&quot;\nVerkausmenge:&quot; +verkaufsmenge+&#xD;
+				&quot;\nPreis in Euro:&quot; +preis+&#xD;
+				&quot;\nGesamtpreis:&quot; +gesamtpreis+&#xD;
+				&quot;\n&quot;;&#xD;
+		return kassenzettel;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VWm07RPEey5gfZI4zs4wQ" name="bestandErhoehen" specification="_9MwEcLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VWm1LRPEey5gfZI4zs4wQ" name="wert">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>bestand = bestand + wert;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VWm1bRPEey5gfZI4zs4wQ" name="getraenkverkaufen" specification="_9Mx5oLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VWm1rRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VWm17RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String ausgabetext;&#xD;
+		bestand = bestand - verkaufsmenge;&#xD;
+		ausgabetext = kassenzettelDrucken(verkaufsmenge);&#xD;
+		return ausgabetext;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VXN4LRPEey5gfZI4zs4wQ" name="PreisVeraendern" specification="_9Mzu0LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VXN4bRPEey5gfZI4zs4wQ" name="neuerpreis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>preis = neuerpreis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VXN4rRPEey5gfZI4zs4wQ" name="getName" specification="_9M0V4LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VXN47RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VX08LRPEey5gfZI4zs4wQ" name="getPreis" specification="_9M2LELRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VX08bRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return preis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VX08rRPEey5gfZI4zs4wQ" name="getBestand" specification="_9M2yILRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VX087RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return bestand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9Mgz4LRPEey5gfZI4zs4wQ" name="Getraenk" method="_9VUxoLRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9Mha8LRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9Mha8bRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9Mha8rRPEey5gfZI4zs4wQ" type="_9Me-sLRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MlsYLRPEey5gfZI4zs4wQ" name="Getraenk" method="_9VVYsLRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9MnhkbRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9MoIoLRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9Mm6gLRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9Mm6gbRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9Mm6grRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MnhkLRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MoIobRPEey5gfZI4zs4wQ" type="_9Me-sLRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Mp90LRPEey5gfZI4zs4wQ" name="setName" method="_9VVYtrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9Mp90bRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Mqk4LRPEey5gfZI4zs4wQ" name="setPreis" method="_9VV_wLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9Mqk4bRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MtBILRPEey5gfZI4zs4wQ" name="setBestand" method="_9VV_wrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MtBIbRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Mu2ULRPEey5gfZI4zs4wQ" name="kassenzettelDrucken" method="_9VWm0LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MvdYLRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MvdYbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9MwEcLRPEey5gfZI4zs4wQ" name="bestandErhoehen" method="_9VWm07RPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9MwEcbRPEey5gfZI4zs4wQ" name="wert">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Mx5oLRPEey5gfZI4zs4wQ" name="getraenkverkaufen" method="_9VWm1bRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9Mx5obRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9MygsLRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Mzu0LRPEey5gfZI4zs4wQ" name="PreisVeraendern" method="_9VXN4LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9Mzu0bRPEey5gfZI4zs4wQ" name="neuerpreis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9M0V4LRPEey5gfZI4zs4wQ" name="getName" method="_9VXN4rRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9M1kALRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9M2LELRPEey5gfZI4zs4wQ" name="getPreis" method="_9VX08LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9M2LEbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9M2yILRPEey5gfZI4zs4wQ" name="getBestand" method="_9VX08rRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9M3ZMLRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9Ng5cLRPEey5gfZI4zs4wQ" name="Getraenkeverwaltung">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VfwwLRPEey5gfZI4zs4wQ" name="main" specification="_9NjVsLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VfwwbRPEey5gfZI4zs4wQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9VfwwrRPEey5gfZI4zs4wQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		&#xD;
+		//Getränk 1&#xD;
+		Getraenk getraenk1 = new Getraenk ();&#xD;
+		getraenk1.setName(&quot;vodka&quot;);&#xD;
+		String name1 = getraenk1.getName();&#xD;
+		&#xD;
+		getraenk1.setPreis (12);&#xD;
+		double preis1 = getraenk1.getPreis();&#xD;
+		getraenk1.setBestand (20);&#xD;
+		&#xD;
+		//Getränk 2&#xD;
+		Getraenk getraenk2 = new Getraenk ();&#xD;
+		getraenk2.setName(&quot;Whiskey&quot;);&#xD;
+		String name2 = getraenk2.getName();&#xD;
+		&#xD;
+		getraenk2.setPreis (15);&#xD;
+		double preis2 = getraenk2.getPreis();&#xD;
+		getraenk2.setBestand (30);&#xD;
+		&#xD;
+		//Getränk 3&#xD;
+		Getraenk getraenk3 = new Getraenk ();&#xD;
+		getraenk3.setName(&quot;Wein&quot;);&#xD;
+		String name3 = getraenk1.getName();&#xD;
+		&#xD;
+		getraenk3.setPreis (10);&#xD;
+		double preis3 = getraenk1.getPreis();&#xD;
+		getraenk3.setBestand (45);&#xD;
+		&#xD;
+		//Snack 1&#xD;
+		Snack snack1 = new Snack ();&#xD;
+		snack1.setName(&quot;Bretzel&quot;);&#xD;
+		String s_name1 = snack1.getName();&#xD;
+		double lagertemp1 = snack1.getLagertemp();&#xD;
+		&#xD;
+		snack1.setPreis (1);&#xD;
+		double s_preis1 = snack1.getPreis();&#xD;
+		snack1.setBestand(40);&#xD;
+		snack1.setLagertemp(20);&#xD;
+		&#xD;
+		//Snack 2&#xD;
+		Snack snack2 = new Snack ();&#xD;
+		snack2.setName(&quot;Nic Nac's&quot;);&#xD;
+		String s_name2 = snack2.getName();&#xD;
+		&#xD;
+		snack2.setPreis (2);&#xD;
+		double s_preis2 = snack2.getPreis();&#xD;
+		snack2.setBestand(50);&#xD;
+		snack2.setLagertemp(20);&#xD;
+		&#xD;
+		//Snack 3&#xD;
+		Snack snack3 = new Snack ();&#xD;
+		snack3.setName(&quot;Chips&quot;);&#xD;
+		String s_name3 = snack3.getName();&#xD;
+		&#xD;
+		snack3.setPreis (2);&#xD;
+		double s_preis3 = snack3.getPreis();&#xD;
+		snack3.setBestand(100);&#xD;
+		snack3.setLagertemp(20);&#xD;
+		&#xD;
+		//Arraylist erstellen&#xD;
+		ArrayList&lt;Getraenk> getraenkeListe = new ArrayList&lt;Getraenk>();&#xD;
+		&#xD;
+		getraenkeListe.add(getraenk1);&#xD;
+		getraenkeListe.add(getraenk2);&#xD;
+		getraenkeListe.add(getraenk3);&#xD;
+		&#xD;
+		System.out.println(&quot;Getraenkeliste: \n&quot;);&#xD;
+		&#xD;
+		for(Getraenk g : getraenkeListe)&#xD;
+			{&#xD;
+			System.out.print(&quot;Getraenkename: &quot; +g.getName()+ &quot;\n&quot;);&#xD;
+			System.out.print(&quot;Bestand des Getraenks: &quot; +g.getBestand()+ &quot; Flaschen \n&quot;);&#xD;
+			System.out.print(&quot;Getraenkepreis: &quot; +g.getPreis()+ &quot; € \n&quot; + &quot; \n&quot;);&#xD;
+			}&#xD;
+		&#xD;
+		&#xD;
+		ArrayList&lt;Snack> snackListe = new ArrayList&lt;Snack>();&#xD;
+				&#xD;
+			snackListe.add(snack1);&#xD;
+			snackListe.add(snack2);&#xD;
+			snackListe.add(snack3);&#xD;
+			&#xD;
+			System.out.println(&quot;Snackliste: \n&quot;);&#xD;
+			&#xD;
+			for(Snack s : snackListe)&#xD;
+				{&#xD;
+				System.out.print(&quot;Snackname: &quot; +s.getName()+ &quot;\n&quot;);&#xD;
+				System.out.print(&quot;Snackbestand: &quot; +s.getBestand()+ &quot; Packungen \n&quot;);&#xD;
+				System.out.print(&quot;Snackpreis: &quot; +s.getPreis()+ &quot; €&quot; + &quot;\n&quot;);&#xD;
+				System.out.print(&quot;Lagertemperatur:&quot; + s.getLagertemp()+ &quot; °C&quot; + &quot;\n&quot; + &quot;\n&quot;);&#xD;
+				}&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		 &#xD;
+	&#xD;
+		//Startausgabe&#xD;
+		System.out.println(&quot;Herzlich Willkommen zur Getränke-/Snackverwaltung! \n&quot;);&#xD;
+		&#xD;
+		//Ausgabe des Bestandes vor erhöhung&#xD;
+		System.out.println(&quot;Bestand an &quot; + getraenk1.getName() +&quot; vor Bestellung:&quot;);&#xD;
+				System.out.println(getraenk1.getBestand());&#xD;
+				&#xD;
+				//Bestellung von 1000 Einheiten des ersten Getränks:&#xD;
+				getraenk1.bestandErhoehen(1000);&#xD;
+				&#xD;
+				System.out.println(&quot;Bestand an &quot; + getraenk1.getName() +&quot; nach Bestellung:&quot;);&#xD;
+				System.out.println(getraenk1.getBestand() + &quot; \n&quot;);&#xD;
+				&#xD;
+				&#xD;
+				//Verkauf von 500 Einheiten des ersten Getränks:&#xD;
+				System.out.println(getraenk1.getraenkverkaufen(500));&#xD;
+				&#xD;
+				System.out.println(&quot;Bestand nach Verkauf:&quot;);&#xD;
+				System.out.println(getraenk1.getBestand());&#xD;
+				&#xD;
+		System.out.println(&quot;Getraenk: &quot; + getraenk1.getName() + &quot;. Preis: &quot; + getraenk1.getPreis()+ &quot; €&quot; + &quot;\n&quot;);&#xD;
+		&#xD;
+		System.out.println(&quot;[1] &quot; + &quot;Bestanderhoehung Getränke&quot;);&#xD;
+		System.out.println(&quot;[2] &quot; + &quot;Getraenkeverkauf&quot;);&#xD;
+		System.out.println(&quot;[3] &quot; + &quot;Preisaenderung Getränke&quot;);&#xD;
+		System.out.println(&quot;[4] &quot; + &quot;Bestanderhoehung Snacks&quot;);&#xD;
+		System.out.println(&quot;[5] &quot; + &quot;Snackverkauf&quot;);&#xD;
+		System.out.println(&quot;[6] &quot; + &quot;Preisaenderung Snacks&quot;);&#xD;
+		&#xD;
+		{&#xD;
+			Scanner tastatur = new Scanner(System.in);&#xD;
+			&#xD;
+			int x = tastatur.nextInt();&#xD;
+&#xD;
+		    switch ( x )&#xD;
+		    {&#xD;
+		      case 1:&#xD;
+		    	  System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Getränke> Bitte Getraenk auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Bestandserhoehung Vodka&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Bestandserhoehung Whiskey&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Bestandserhoehung Wein&quot;);&#xD;
+		    	  &#xD;
+		    	  int y = tastatur.nextInt();&#xD;
+		    	  &#xD;
+		    	  switch ( y )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Vodka> Bitte Menge eingeben:&quot;);&#xD;
+		    	  		int bestandserhoehung1 =   tastatur.nextInt();&#xD;
+		    	  		getraenk1.bestandErhoehen(bestandserhoehung1);&#xD;
+		    	  		System.out.println(&quot;Der neue Bestand von &quot; +getraenk1.getName()+ &quot; betraegt:&quot;+getraenk1.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+		    	  		&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Whiskey> Bitte Menge eingeben:&quot;);&#xD;
+		    		  	int bestandserhoehung2 =   tastatur.nextInt();&#xD;
+			    	  	getraenk2.bestandErhoehen(bestandserhoehung2);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand von &quot; +getraenk2.getName()+ &quot; betraegt:&quot;+getraenk2.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Wein> Bitte Menge eingeben:&quot;);&#xD;
+		    		  	int bestandserhoehung3 =   tastatur.nextInt();&#xD;
+			    	  	getraenk3.bestandErhoehen(bestandserhoehung3);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand von &quot; +getraenk3.getName()+ &quot; betraegt:&quot;+getraenk3.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + y + &quot; nicht moeglich&quot;);&#xD;
+		    	  }&#xD;
+		        break;&#xD;
+		        &#xD;
+		      case 2:&#xD;
+		    	  System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf> Bitte Getraenk auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Getraenkeverkauf Vodka&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Getraenkeverkauf Whiskey&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Getraenkeverkauf Wein&quot;);&#xD;
+		    	  &#xD;
+		    	  int z = tastatur.nextInt();&#xD;
+		    	  &#xD;
+		    	  switch ( z )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf Vodka> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    	  		int getraenkverkaufen1 =   tastatur.nextInt();&#xD;
+		    	  		getraenk1.getraenkverkaufen(getraenkverkaufen1);&#xD;
+		    	  		System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +getraenk1.getName()+ &quot; betraegt:&quot;+getraenk1.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+		    	  		System.out.println(getraenk1.getraenkverkaufen(getraenkverkaufen1));&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf Whiskey> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    		  	int getraenkverkaufen2 =   tastatur.nextInt();&#xD;
+			    	  	getraenk2.getraenkverkaufen(getraenkverkaufen2);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +getraenk2.getName()+ &quot; betraegt:&quot;+getraenk2.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	System.out.println(getraenk2.getraenkverkaufen(getraenkverkaufen2));&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf Wein> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    		  	int getraenkverkaufen3 =   tastatur.nextInt();&#xD;
+			    	  	getraenk3.getraenkverkaufen(getraenkverkaufen3);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +getraenk3.getName()+ &quot; betraegt:&quot;+getraenk3.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+						System.out.println(getraenk3.getraenkverkaufen(getraenkverkaufen3));&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + z + &quot; nicht moeglich&quot;);&#xD;
+		    	  }&#xD;
+		        break;&#xD;
+		        &#xD;
+		      case 3:&#xD;
+		    	  System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung> Bitte Getraenk auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Preisaenderung Vodka&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Preisaenderung Whiskey&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Preisaenderung Wein&quot;);&#xD;
+		    	  &#xD;
+		    	  int g = tastatur.nextInt();&#xD;
+  &#xD;
+		    	  switch ( g )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Vodka> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    	  		int PreisVeraendern1 =   tastatur.nextInt();&#xD;
+		    	  		getraenk1.PreisVeraendern(PreisVeraendern1);&#xD;
+		    	  		System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +getraenk1.getName()+ &quot; betraegt:&quot;+getraenk1.getPreis()+ &quot; Euro.&quot;);&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Whiskey> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    		  	int PreisVeraendern2 =   tastatur.nextInt();&#xD;
+			    	  	getraenk2.PreisVeraendern(PreisVeraendern2);&#xD;
+			    	  	System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +getraenk2.getName()+ &quot; betraegt:&quot;+getraenk2.getPreis()+ &quot; Euro.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Wein> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    		  	int PreisVeraendern3 =   tastatur.nextInt();&#xD;
+			    	  	getraenk3.PreisVeraendern(PreisVeraendern3);&#xD;
+			    	  	System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +getraenk3.getName()+ &quot; betraegt:&quot;+getraenk3.getPreis()+ &quot; Euro.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + g + &quot; nicht moeglich&quot;);&#xD;
+		    	  }&#xD;
+		    	 break;&#xD;
+		      &#xD;
+		      case 4:&#xD;
+		    	  System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Snacks> Bitte Snack auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Bestandserhoehung Bretzel&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Bestandserhoehung Nic Nac's&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Bestandserhoehung Chips&quot;);&#xD;
+		    	  &#xD;
+		    	  int i = tastatur.nextInt();&#xD;
+		    	  &#xD;
+		    	  switch ( i )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Bretzel> Bitte Menge eingeben:&quot;);&#xD;
+		    	  		int bestandserhoehung1 =   tastatur.nextInt();&#xD;
+		    	  		snack1.bestandErhoehen(bestandserhoehung1);&#xD;
+		    	  		System.out.println(&quot;Der neue Bestand von &quot; +snack1.getName()+ &quot; betraegt:&quot;+snack1.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+		    	  		&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Nic Nac's> Bitte Menge eingeben:&quot;);&#xD;
+		    		  	int bestandserhoehung2 =   tastatur.nextInt();&#xD;
+		    		  	snack2.bestandErhoehen(bestandserhoehung2);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand von &quot; +snack2.getName()+ &quot; betraegt:&quot;+snack2.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Bestandserhoehung Chips> Bitte Menge eingeben:&quot;);&#xD;
+		    		  	int bestandserhoehung3 =   tastatur.nextInt();&#xD;
+		    		  	snack3.bestandErhoehen(bestandserhoehung3);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand von &quot; +snack3.getName()+ &quot; betraegt:&quot;+snack3.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + i + &quot; nicht moeglich&quot;);&#xD;
+				        &#xD;
+		    	  }&#xD;
+	    		  	break;&#xD;
+	    		  	&#xD;
+	    	  case 5:&#xD;
+	    		  System.out.println(&quot;\n&quot; + &quot;&lt;Snackverkauf> Bitte Snack auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Snackverkauf Bretzel&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Snackverkauf Nic Nac's&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Snackverkauf Chips&quot;);&#xD;
+		    	  &#xD;
+		    	  int a = tastatur.nextInt();&#xD;
+		    	  &#xD;
+		    	  switch ( a )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Snackverkauf Vodka> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    	  		int snackverkaufen1 =   tastatur.nextInt();&#xD;
+		    	  		snack1.snackverkaufen(snackverkaufen1);&#xD;
+		    	  		System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +snack1.getName()+ &quot; betraegt:&quot;+snack1.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+		    	  		System.out.println(snack1.snackverkaufen(snackverkaufen1));&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf Whiskey> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    		  	int snackverkaufen2 =   tastatur.nextInt();&#xD;
+		    		  	snack2.snackverkaufen(snackverkaufen2);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +snack2.getName()+ &quot; betraegt:&quot;+snack2.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+			    	  	System.out.println(snack2.snackverkaufen(snackverkaufen2));&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Getraenkeverkauf Wein> Bitte Verkaufsmenge eingeben:&quot;);&#xD;
+		    		  	int snackverkaufen3 =   tastatur.nextInt();&#xD;
+		    		  	snack3.snackverkaufen(snackverkaufen3);&#xD;
+			    	  	System.out.println(&quot;Der neue Bestand nach dem Verkauf von &quot; +snack3.getName()+ &quot; betraegt:&quot;+snack3.getBestand()+ &quot; Flaschen.&quot;);&#xD;
+						System.out.println(snack3.snackverkaufen(snackverkaufen3));&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + a + &quot; nicht moeglich&quot;);&#xD;
+		    	  }&#xD;
+	    		  	break;&#xD;
+	    	  case 6:&#xD;
+	    		  System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung> Bitte Snack auswaehlen:&quot; + &quot;\n&quot;);&#xD;
+		    	  System.out.println(&quot;[1] &quot; + &quot;Preisaenderung Bretzel&quot;);&#xD;
+		    	  System.out.println(&quot;[2] &quot; + &quot;Preisaenderung Nic Nac's&quot;);&#xD;
+		    	  System.out.println(&quot;[3] &quot; + &quot;Preisaenderung Chips&quot;);&#xD;
+		    	  &#xD;
+		    	  int b = tastatur.nextInt();&#xD;
+  &#xD;
+		    	  switch ( b )&#xD;
+		    	  {&#xD;
+		    	  case 1:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Bretzel> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    	  		int PreisVeraendern1 =   tastatur.nextInt();&#xD;
+		    	  		snack1.PreisVeraendern(PreisVeraendern1);&#xD;
+		    	  		System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +snack1.getName()+ &quot; betraegt:&quot;+snack1.getPreis()+ &quot; Euro.&quot;);&#xD;
+		    	  		break;&#xD;
+		    	  case 2:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Nic Nac's> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    		  	int PreisVeraendern2 =   tastatur.nextInt();&#xD;
+			    	  	snack2.PreisVeraendern(PreisVeraendern2);&#xD;
+			    	  	System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +snack2.getName()+ &quot; betraegt:&quot;+snack2.getPreis()+ &quot; Euro.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  case 3:&#xD;
+		    		  	System.out.println(&quot;\n&quot; + &quot;&lt;Preisaenderung Chips> Bitte den neuen Preis eingeben:&quot;);&#xD;
+		    		  	int PreisVeraendern3 =   tastatur.nextInt();&#xD;
+			    	  	snack3.PreisVeraendern(PreisVeraendern3);&#xD;
+			    	  	System.out.println(&quot;Der neue Preis nach der Preisaenderung von &quot; +snack3.getName()+ &quot; betraegt:&quot;+snack3.getPreis()+ &quot; Euro.&quot;);&#xD;
+			    	  	break;&#xD;
+		    	  default:&#xD;
+				        System.err.println( &quot;Auswahl &quot; + b + &quot; nicht moeglich&quot;);&#xD;
+		    	  }&#xD;
+	    		  return;&#xD;
+	    	  default:&#xD;
+			        System.err.println( &quot;Auswahl &quot; + x + &quot; nicht moeglich&quot;);&#xD;
+		    }&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9NjVsLRPEey5gfZI4zs4wQ" name="main" isStatic="true" method="_9VfwwLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9NjVsbRPEey5gfZI4zs4wQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9Nj8wLRPEey5gfZI4zs4wQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9Nkj0LRPEey5gfZI4zs4wQ" name="Snack">
+        <generalization xmi:id="_9TGkELRPEey5gfZI4zs4wQ" general="_9L_PcLRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9U2QgLRPEey5gfZI4zs4wQ" name="name" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9U3eoLRPEey5gfZI4zs4wQ" name="preis" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9U4FsbRPEey5gfZI4zs4wQ" name="bestand" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_9U5T0LRPEey5gfZI4zs4wQ" name="lagertemp" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VjbILRPEey5gfZI4zs4wQ" name="Snack" specification="_9N57ALRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VjbIbRPEey5gfZI4zs4wQ" type="_9Nkj0LRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VkCMLRPEey5gfZI4zs4wQ" name="Snack" specification="_9N7wMLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VkCMbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VkCMrRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VkCM7RPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VkCNLRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9VkCNbRPEey5gfZI4zs4wQ" type="_9Nkj0LRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>super(name, preis, bestand, lagertemp);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VkCNrRPEey5gfZI4zs4wQ" name="setName" specification="_9OB20LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VkCN7RPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VkCOLRPEey5gfZI4zs4wQ" name="setPreis" specification="_9OCd4LRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VkCObRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.preis = preis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VkpQLRPEey5gfZI4zs4wQ" name="setBestand" specification="_9ODE8bRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VkpQbRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.bestand = bestand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9VkpQrRPEey5gfZI4zs4wQ" name="setLagertemp" specification="_9ODsALRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9VkpQ7RPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.lagertemp = lagertemp;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V2WELRPEey5gfZI4zs4wQ" name="kassenzettelDrucken" specification="_9OJyoLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V2WEbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9V2WErRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		String kassenzettel;&#xD;
+		double gesamtpreis;&#xD;
+		gesamtpreis = preis * verkaufsmenge;&#xD;
+		kassenzettel =&quot;Name:&quot; +name+ &#xD;
+				&quot;\nVerkausmenge:&quot; +verkaufsmenge+&#xD;
+				&quot;\nPreis in Euro:&quot; +preis+&#xD;
+				&quot;\nGesamtpreis:&quot; +gesamtpreis+&#xD;
+				&quot;\n&quot;;&#xD;
+		return kassenzettel;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V2WE7RPEey5gfZI4zs4wQ" name="bestandErhoehen" specification="_9OPSMLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V29ILRPEey5gfZI4zs4wQ" name="wert">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>bestand = bestand + wert;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V4LQLRPEey5gfZI4zs4wQ" name="snackverkaufen" specification="_9OQgULRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V4LQbRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9V4LQrRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String ausgabetext;&#xD;
+		bestand = bestand - verkaufsmenge;&#xD;
+		ausgabetext = kassenzettelDrucken(verkaufsmenge);&#xD;
+		return ausgabetext;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V4LQ7RPEey5gfZI4zs4wQ" name="PreisVeraendern" specification="_9OTjoLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V4LRLRPEey5gfZI4zs4wQ" name="neuerpreis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>preis = neuerpreis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V4yULRPEey5gfZI4zs4wQ" name="getName" specification="_9OYcILRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V4yUbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return name;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V4yUrRPEey5gfZI4zs4wQ" name="getPreis" specification="_9OZDMLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V4yU7RPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return preis;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V4yVLRPEey5gfZI4zs4wQ" name="getBestand" specification="_9Oa4YLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V4yVbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return bestand;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V5ZYLRPEey5gfZI4zs4wQ" name="getLagertemp" specification="_9OcGgLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V5ZYbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return lagertemp;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9N57ALRPEey5gfZI4zs4wQ" name="Snack" method="_9VjbILRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9N6iELRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9N6iEbRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9N6iErRPEey5gfZI4zs4wQ" type="_9Nkj0LRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9N7wMLRPEey5gfZI4zs4wQ" name="Snack" method="_9VkCMLRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9OABobRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9OABorRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_9N7wMbRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9N7wMrRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9N8XQLRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9OABoLRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9OAosLRPEey5gfZI4zs4wQ" type="_9Nkj0LRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OB20LRPEey5gfZI4zs4wQ" name="setName" method="_9VkCNrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OB20bRPEey5gfZI4zs4wQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OCd4LRPEey5gfZI4zs4wQ" name="setPreis" method="_9VkCOLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9ODE8LRPEey5gfZI4zs4wQ" name="preis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9ODE8bRPEey5gfZI4zs4wQ" name="setBestand" method="_9VkpQLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9ODE8rRPEey5gfZI4zs4wQ" name="bestand">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9ODsALRPEey5gfZI4zs4wQ" name="setLagertemp" method="_9VkpQrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9ODsAbRPEey5gfZI4zs4wQ" name="lagertemp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OJyoLRPEey5gfZI4zs4wQ" name="kassenzettelDrucken" method="_9V2WELRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OKZsLRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9OLn0LRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OPSMLRPEey5gfZI4zs4wQ" name="bestandErhoehen" method="_9V2WE7RPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OP5QLRPEey5gfZI4zs4wQ" name="wert">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OQgULRPEey5gfZI4zs4wQ" name="snackverkaufen" method="_9V4LQLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9ORHYLRPEey5gfZI4zs4wQ" name="verkaufsmenge">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_9ORHYbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OTjoLRPEey5gfZI4zs4wQ" name="PreisVeraendern" method="_9V4LQ7RPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OTjobRPEey5gfZI4zs4wQ" name="neuerpreis">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OYcILRPEey5gfZI4zs4wQ" name="getName" method="_9V4yULRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OYcIbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OZDMLRPEey5gfZI4zs4wQ" name="getPreis" method="_9V4yUrRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OZDMbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9Oa4YLRPEey5gfZI4zs4wQ" name="getBestand" method="_9V4yVLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9ObfcLRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OcGgLRPEey5gfZI4zs4wQ" name="getLagertemp" method="_9V5ZYLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9OcGgbRPEey5gfZI4zs4wQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9OkCULRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke">
+        <generalization xmi:id="_9UrRYLRPEey5gfZI4zs4wQ" general="_9Tb7QbRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9U6h8LRPEey5gfZI4zs4wQ" name="contentPane" visibility="private" type="_9Te-kLRPEey5gfZI4zs4wQ" association="_9WAuILRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9U7wEbRPEey5gfZI4zs4wQ" name="table" visibility="private" type="_9UPMgbRPEey5gfZI4zs4wQ" association="_9WBVMbRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9U-zYLRPEey5gfZI4zs4wQ" name="table_1" visibility="private" type="_9UPMgbRPEey5gfZI4zs4wQ" association="_9WCjUbRPEey5gfZI4zs4wQ"/>
+        <ownedAttribute xmi:id="_9VABgLRPEey5gfZI4zs4wQ" name="table_2" visibility="private" type="_9UPMgbRPEey5gfZI4zs4wQ" association="_9WDKYbRPEey5gfZI4zs4wQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V6AcLRPEey5gfZI4zs4wQ" name="main" specification="_9OmekLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V6AcbRPEey5gfZI4zs4wQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9V6AcrRPEey5gfZI4zs4wQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() &#xD;
+		{&#xD;
+			public void run() &#xD;
+			{&#xD;
+				try &#xD;
+				{&#xD;
+					oberflaeche_getraenke frame = new oberflaeche_getraenke();&#xD;
+					frame.setVisible(true);&#xD;
+				} catch (Exception e) &#xD;
+				{&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_9V6ngLRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke" specification="_9OoTwLRPEey5gfZI4zs4wQ">
+          <ownedParameter xmi:id="_9V6ngbRPEey5gfZI4zs4wQ" type="_9OkCULRPEey5gfZI4zs4wQ" direction="return"/>
+          <language>java</language>
+          <body>//Getränk 1&#xD;
+		Getraenk getraenk1 = new Getraenk ();&#xD;
+		getraenk1.setName(&quot;vodka&quot;);&#xD;
+		String name1 = getraenk1.getName();&#xD;
+		&#xD;
+		getraenk1.setPreis (12);&#xD;
+		double preis1 = getraenk1.getPreis();&#xD;
+		getraenk1.setBestand (20);&#xD;
+		int bestand1 = getraenk1.getBestand();&#xD;
+		&#xD;
+		//Getränk 2&#xD;
+		Getraenk getraenk2 = new Getraenk ();&#xD;
+		getraenk2.setName(&quot;Whiskey&quot;);&#xD;
+		String name2 = getraenk2.getName();&#xD;
+		&#xD;
+		getraenk2.setPreis (15);&#xD;
+		double preis2 = getraenk2.getPreis();&#xD;
+		getraenk2.setBestand (30);&#xD;
+		int bestand2 = getraenk2.getBestand();&#xD;
+		&#xD;
+		//Getränk 3&#xD;
+		Getraenk getraenk3 = new Getraenk ();&#xD;
+		getraenk3.setName(&quot;Wein&quot;);&#xD;
+		String name3 = getraenk3.getName();&#xD;
+		&#xD;
+		getraenk3.setPreis (10);&#xD;
+		double preis3 = getraenk3.getPreis();&#xD;
+		getraenk3.setBestand (45);&#xD;
+		int bestand3 = getraenk3.getBestand();&#xD;
+		&#xD;
+		//Snack 1&#xD;
+		Snack snack1 = new Snack ();&#xD;
+		snack1.setName(&quot;Bretzel&quot;);&#xD;
+		snack1.setPreis (1);&#xD;
+		snack1.setBestand(40);&#xD;
+		snack1.setLagertemp(20);&#xD;
+		&#xD;
+		&#xD;
+		double s_preis1 = snack1.getPreis();&#xD;
+		double lagertemp1 = snack1.getLagertemp();&#xD;
+		int s_bestand1 = snack1.getBestand();&#xD;
+		String s_name1 = snack1.getName();&#xD;
+		&#xD;
+		//Snack 2&#xD;
+		Snack snack2 = new Snack ();&#xD;
+		snack2.setName(&quot;Nic Nac's&quot;);&#xD;
+		snack2.setPreis (2);&#xD;
+		snack2.setBestand(50);&#xD;
+		snack2.setLagertemp(20);&#xD;
+		&#xD;
+		String s_name2 = snack2.getName();&#xD;
+		double lagertemp2 = snack2.getLagertemp();&#xD;
+		int s_bestand2 = snack2.getBestand();&#xD;
+		double s_preis2 = snack2.getPreis();&#xD;
+		&#xD;
+		//Snack 3&#xD;
+		Snack snack3 = new Snack ();&#xD;
+		snack3.setName(&quot;Chips&quot;);&#xD;
+		snack3.setBestand(100);&#xD;
+		snack3.setLagertemp(20);&#xD;
+		snack3.setPreis (2);&#xD;
+		&#xD;
+		double s_preis3 = snack3.getPreis();&#xD;
+		String s_name3 = snack3.getName();&#xD;
+		double lagertemp3 = snack3.getLagertemp();&#xD;
+		int s_bestand3 = snack3.getBestand();&#xD;
+		&#xD;
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+		setBounds(100, 100, 674, 565);&#xD;
+		contentPane = new JPanel();&#xD;
+		contentPane.setBackground(Color.ORANGE);&#xD;
+		contentPane.setBorder(new EtchedBorder(EtchedBorder.LOWERED, Color.RED, null));&#xD;
+		setContentPane(contentPane);&#xD;
+		contentPane.setLayout(null);&#xD;
+		&#xD;
+		JPanel panel_2 = new JPanel();&#xD;
+		panel_2.setBackground(Color.DARK_GRAY);&#xD;
+		panel_2.setBounds(342, 263, 306, 252);&#xD;
+		contentPane.add(panel_2);&#xD;
+		panel_2.setLayout(null);&#xD;
+		panel_2.setVisible(false);&#xD;
+		panel_2.setEnabled(false);&#xD;
+		&#xD;
+		JLabel lblBestandS = new JLabel(&quot;Snackliste&quot;);&#xD;
+		lblBestandS.setBounds(53, 11, 198, 17);&#xD;
+		lblBestandS.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+		lblBestandS.setForeground(Color.CYAN);&#xD;
+		lblBestandS.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD | Font.ITALIC, 14));&#xD;
+		panel_2.add(lblBestandS);&#xD;
+		&#xD;
+		table_1 = new JTable();&#xD;
+		table_1.setEnabled(false);&#xD;
+		table_1.setModel(new DefaultTableModel(&#xD;
+			new Object[][] {&#xD;
+				{&quot;Name:&quot;, &quot;Bestand:&quot;, &quot;Preis:&quot;, &quot;Lagertemperatur:&quot;},&#xD;
+				{s_name1, s_bestand1, s_preis1 + &quot; €&quot;, lagertemp1},&#xD;
+				{s_name2, s_bestand2, s_preis2 + &quot; €&quot;, lagertemp2},&#xD;
+				{s_name3, s_bestand3, s_preis3 + &quot; €&quot;, lagertemp3},&#xD;
+			},&#xD;
+			new String[] {&#xD;
+				&quot;Name&quot;, &quot;Bestand&quot;, &quot;Preis&quot;, &quot;Lagertemperatur&quot;&#xD;
+			}&#xD;
+		));&#xD;
+		table_1.getColumnModel().getColumn(0).setPreferredWidth(60);&#xD;
+		table_1.getColumnModel().getColumn(3).setPreferredWidth(145);&#xD;
+		table_1.setRowSelectionAllowed(false);&#xD;
+		table_1.setBounds(30, 39, 254, 64);&#xD;
+		panel_2.add(table_1);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		JPanel panel_1 = new JPanel();&#xD;
+		panel_1.setBounds(10, 263, 306, 252);&#xD;
+		contentPane.add(panel_1);&#xD;
+		panel_1.setBackground(Color.DARK_GRAY);&#xD;
+		panel_1.setLayout(null);&#xD;
+		panel_1.setVisible(false);&#xD;
+		panel_1.setEnabled(false);&#xD;
+		&#xD;
+		JLabel lblBestandG = new JLabel(&quot;Getr\u00E4nkeliste&quot;);&#xD;
+		lblBestandG.setBounds(29, 11, 246, 17);&#xD;
+		lblBestandG.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+		lblBestandG.setForeground(Color.CYAN);&#xD;
+		lblBestandG.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD | Font.ITALIC, 14));&#xD;
+		panel_1.add(lblBestandG);&#xD;
+		&#xD;
+		&#xD;
+&#xD;
+		&#xD;
+		&#xD;
+		table = new JTable();&#xD;
+		table.setRowSelectionAllowed(false);&#xD;
+		table.setModel(new DefaultTableModel(&#xD;
+			new Object[][] {&#xD;
+				{&quot;Name:&quot;, &quot;Bestand:&quot;, &quot;Preis:&quot;},&#xD;
+				{name1, bestand1, preis1 + &quot; €&quot;},&#xD;
+				{name2, bestand2, preis2 + &quot; €&quot;},&#xD;
+				{name3, bestand3, preis3 + &quot; €&quot;},&#xD;
+			},&#xD;
+&#xD;
+			new String  [] &#xD;
+			{&#xD;
+				&quot;Name:&quot;, &quot;Bestand:&quot;, &quot;Preis:&quot;&#xD;
+			}&#xD;
+		) {&#xD;
+			Class[] columnTypes = new Class[] {&#xD;
+				String.class, Integer.class, Double.class&#xD;
+			};&#xD;
+			public Class getColumnClass(int columnIndex) {&#xD;
+				return columnTypes[columnIndex];&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		JButton btnNicNacs = new JButton(&quot;Nic Nac's&quot;);&#xD;
+		JButton btnBretzel = new JButton(&quot;Bretzel&quot;);&#xD;
+		JButton btnChips = new JButton(&quot;Chips&quot;);		&#xD;
+		JButton btnZurck = new JButton(&quot;Zur\u00FCck&quot;);&#xD;
+		&#xD;
+&#xD;
+		&#xD;
+		JFormattedTextField formattedTextField_1_1 = new JFormattedTextField((Object) null);&#xD;
+		formattedTextField_1_1.setColumns(10);&#xD;
+		formattedTextField_1_1.setBounds(10, 147, 286, 22);&#xD;
+		formattedTextField_1_1.setValue(0);&#xD;
+		formattedTextField_1_1.setText(&quot;&quot;);&#xD;
+		formattedTextField_1_1.setColumns(10);&#xD;
+		formattedTextField_1_1.getValue();&#xD;
+		panel_2.add(formattedTextField_1_1);&#xD;
+		&#xD;
+		JRadioButton rdbtnsBestand = new JRadioButton(&quot;Bestandserh\u00F6hung&quot;);&#xD;
+		rdbtnsBestand.setBounds(0, 187, 115, 23);&#xD;
+		panel_2.add(rdbtnsBestand);&#xD;
+		&#xD;
+		JRadioButton rdbtnsVerkauf = new JRadioButton(&quot;Verkauf&quot;);&#xD;
+		rdbtnsVerkauf.setBounds(118, 187, 77, 23);&#xD;
+		panel_2.add(rdbtnsVerkauf);&#xD;
+		&#xD;
+		JRadioButton rdbtnsPreis = new JRadioButton(&quot;Preis\u00E4nderung&quot;);&#xD;
+		rdbtnsPreis.setBounds(199, 187, 101, 23);&#xD;
+		panel_2.add(rdbtnsPreis);&#xD;
+		&#xD;
+		JPanel panel_3 = new JPanel();&#xD;
+		panel_3.setBackground(Color.DARK_GRAY);&#xD;
+		panel_3.setBounds(10, 11, 638, 241);&#xD;
+		contentPane.add(panel_3);&#xD;
+		panel_3.setLayout(null);&#xD;
+		&#xD;
+		JLabel lblHerzlichWillkommenZur = new JLabel(&quot;Herzlich Willkommen zur Artikelverwaltung&quot;);&#xD;
+		lblHerzlichWillkommenZur.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+		lblHerzlichWillkommenZur.setForeground(Color.CYAN);&#xD;
+		lblHerzlichWillkommenZur.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 14));&#xD;
+		lblHerzlichWillkommenZur.setBounds(102, 11, 432, 49);&#xD;
+		panel_3.add(lblHerzlichWillkommenZur);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		JLabel lblGetrnkeverwaltung = new JLabel(&quot;Getr\u00E4nke&quot;);&#xD;
+		lblGetrnkeverwaltung.setBounds(49, 99, 156, 17);&#xD;
+		panel_3.add(lblGetrnkeverwaltung);&#xD;
+		lblGetrnkeverwaltung.setForeground(Color.CYAN);&#xD;
+		lblGetrnkeverwaltung.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+		lblGetrnkeverwaltung.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD | Font.ITALIC, 14));&#xD;
+		&#xD;
+		JLabel lblSnackverwaltung = new JLabel(&quot;Snack's&quot;);&#xD;
+		lblSnackverwaltung.setBounds(402, 99, 139, 17);&#xD;
+		panel_3.add(lblSnackverwaltung);&#xD;
+		lblSnackverwaltung.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+		lblSnackverwaltung.setForeground(Color.CYAN);&#xD;
+		lblSnackverwaltung.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD | Font.ITALIC, 14));&#xD;
+		&#xD;
+		JButton btnVerkaufG = new JButton(&quot;Getr\u00E4nkeverwaltung&quot;);&#xD;
+		btnVerkaufG.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));&#xD;
+		btnVerkaufG.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));&#xD;
+		btnVerkaufG.setBounds(49, 127, 156, 23);&#xD;
+		panel_3.add(btnVerkaufG);&#xD;
+		btnVerkaufG.setForeground(Color.BLUE);&#xD;
+		btnVerkaufG.setBackground(Color.WHITE);&#xD;
+		btnVerkaufG.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 11));&#xD;
+		&#xD;
+		JButton btnVerkaufS = new JButton(&quot;Snackverwaltung&quot;);&#xD;
+		btnVerkaufS.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));&#xD;
+		btnVerkaufS.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null)); &#xD;
+		&#xD;
+		btnVerkaufS.setBounds(402, 127, 139, 23);&#xD;
+		panel_3.add(btnVerkaufS);&#xD;
+		btnVerkaufS.setForeground(Color.BLUE);&#xD;
+		btnVerkaufS.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 11));&#xD;
+		btnVerkaufS.setBackground(Color.WHITE);&#xD;
+		&#xD;
+		JLabel lblWasMchtenSie = new JLabel(&quot;Was m\u00F6chten sie verwalten ?&quot;);&#xD;
+		lblWasMchtenSie.setBounds(204, 71, 200, 17);&#xD;
+		panel_3.add(lblWasMchtenSie);&#xD;
+		lblWasMchtenSie.setForeground(Color.CYAN);&#xD;
+		lblWasMchtenSie.setFont(new Font(&quot;Tahoma&quot;, Font.BOLD, 14));&#xD;
+		&#xD;
+		JTextArea textArea = new JTextArea();&#xD;
+		textArea.setBounds(49, 162, 261, 68);&#xD;
+		textArea.setVisible(false);&#xD;
+		panel_3.add(textArea);&#xD;
+		&#xD;
+		JTextArea textArea_1 = new JTextArea();&#xD;
+		textArea_1.setBounds(320, 162, 261, 68);&#xD;
+		textArea_1.setVisible(false);&#xD;
+		panel_3.add(textArea_1);&#xD;
+		&#xD;
+		&#xD;
+		btnZurck.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent arg0) &#xD;
+			{&#xD;
+				btnBretzel.setVisible(true);&#xD;
+				btnBretzel.setEnabled(false);&#xD;
+				btnNicNacs.setVisible(true);&#xD;
+				btnNicNacs.setEnabled(false);&#xD;
+				btnChips.setVisible(true);&#xD;
+				btnChips.setEnabled(false);&#xD;
+				&#xD;
+				rdbtnsBestand.setSelected(false);&#xD;
+				rdbtnsVerkauf.setSelected(false);&#xD;
+				rdbtnsPreis.setSelected(false);&#xD;
+				formattedTextField_1_1.setValue(null);&#xD;
+				textArea_1.setText(&quot;&quot;);&#xD;
+			}&#xD;
+		});&#xD;
+		btnZurck.setBounds(118, 218, 89, 23);&#xD;
+		panel_2.add(btnZurck);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		btnBretzel.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent arg0) &#xD;
+			{&#xD;
+				&#xD;
+				btnNicNacs.setVisible(false);&#xD;
+				btnNicNacs.setEnabled(false);&#xD;
+				btnChips.setVisible(false);&#xD;
+				btnChips.setEnabled(false);&#xD;
+				int Wert;&#xD;
+				&#xD;
+				Wert = ((Number) formattedTextField_1_1.getValue()).intValue();&#xD;
+				&#xD;
+				&#xD;
+				if (rdbtnsPreis.isSelected() ) &#xD;
+				{&#xD;
+					snack1.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnsBestand.isSelected()) &#xD;
+				{&#xD;
+					snack1.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnsVerkauf.isSelected())&#xD;
+				{&#xD;
+					snack1.snackverkaufen(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea_1.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				&#xD;
+				textArea_1.setVisible(true);&#xD;
+				textArea_1.setText(null);&#xD;
+				textArea_1.setText(&quot;Name:     &quot;+ s_name1 +&quot;     &quot;+ s_name2 +&quot;     &quot;+ s_name3 + &quot;\n&quot; +&#xD;
+						&quot;Bestand:   &quot;+ snack1.getBestand() +&quot;            &quot; + snack2.getBestand() +&quot;             &quot; + snack3.getBestand() + &quot;\n&quot; +&#xD;
+						&quot;Preis:       &quot;+ snack1.getPreis() +&quot; €&quot; +&quot;            &quot; + snack2.getPreis() +&quot; €&quot; +&quot;             &quot; +snack3.getPreis() +&quot; €\n&quot; +&#xD;
+						&quot;Lagertemp: &quot;+ snack1.getLagertemp() + &quot;      &quot; + snack2.getLagertemp() + &quot;     &quot;+ snack3.getLagertemp());&#xD;
+			}&#xD;
+		});&#xD;
+		btnBretzel.setBounds(10, 113, 89, 23);&#xD;
+		panel_2.add(btnBretzel);&#xD;
+		&#xD;
+		&#xD;
+		btnNicNacs.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent arg0) &#xD;
+			{&#xD;
+				btnBretzel.setVisible(false);&#xD;
+				btnBretzel.setEnabled(false);&#xD;
+				btnChips.setVisible(false);&#xD;
+				btnChips.setEnabled(false);&#xD;
+				&#xD;
+				int Wert;&#xD;
+				&#xD;
+				Wert = ((Number) formattedTextField_1_1.getValue()).intValue();&#xD;
+				&#xD;
+				&#xD;
+				if (rdbtnsPreis.isSelected() ) &#xD;
+				{&#xD;
+					snack2.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnsBestand.isSelected()) &#xD;
+				{&#xD;
+					snack2.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnsVerkauf.isSelected())&#xD;
+				{&#xD;
+					snack2.snackverkaufen(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea_1.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				&#xD;
+				textArea_1.setVisible(true);&#xD;
+				textArea_1.setText(null);&#xD;
+				textArea_1.setText(&quot;Name:     &quot;+ s_name1 +&quot;     &quot;+ s_name2 +&quot;     &quot;+ s_name3 + &quot;\n&quot; +&#xD;
+						&quot;Bestand:   &quot;+ snack1.getBestand() +&quot;            &quot; + snack2.getBestand() +&quot;             &quot; + snack3.getBestand() + &quot;\n&quot; +&#xD;
+						&quot;Preis:     &quot;+ snack1.getPreis() +&quot; €&quot; +&quot;     &quot; + snack2.getPreis() +&quot; €&quot; +&quot;     &quot; +snack3.getPreis() +&quot; €\n&quot; +&#xD;
+						&quot;Lagertemp:     &quot;+ snack1.getLagertemp() + &quot;     &quot; + snack2.getLagertemp() + &quot;     &quot;+ snack3.getLagertemp());&#xD;
+			}&#xD;
+		});&#xD;
+		btnNicNacs.setBounds(109, 113, 89, 23);&#xD;
+		panel_2.add(btnNicNacs);&#xD;
+		&#xD;
+		&#xD;
+		btnChips.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent arg0) &#xD;
+			{&#xD;
+				btnBretzel.setVisible(false);&#xD;
+				btnBretzel.setEnabled(false);&#xD;
+				btnNicNacs.setVisible(false);&#xD;
+				btnNicNacs.setEnabled(false);&#xD;
+				&#xD;
+				int Wert;&#xD;
+				&#xD;
+				Wert = ((Number) formattedTextField_1_1.getValue()).intValue();&#xD;
+				&#xD;
+				&#xD;
+				if (rdbtnsPreis.isSelected() ) &#xD;
+				{&#xD;
+					snack3.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnsBestand.isSelected()) &#xD;
+				{&#xD;
+					snack3.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnsVerkauf.isSelected())&#xD;
+				{&#xD;
+					snack3.snackverkaufen(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea_1.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				&#xD;
+				textArea_1.setVisible(true);&#xD;
+				textArea_1.setText(null);&#xD;
+				textArea_1.setText(&quot;Name:     &quot;+ s_name1 +&quot;     &quot;+ s_name2 +&quot;     &quot;+ s_name3 + &quot;\n&quot; +&#xD;
+								&quot;Bestand:   &quot;+ snack1.getBestand() +&quot;            &quot; + snack2.getBestand() +&quot;             &quot; + snack3.getBestand() + &quot;\n&quot; +&#xD;
+								&quot;Preis:     &quot;+ snack1.getPreis() +&quot; €&quot; +&quot;     &quot; + snack2.getPreis() +&quot; €&quot; +&quot;     &quot; +snack3.getPreis() +&quot; €\n&quot; +&#xD;
+								&quot;Lagertemp:     &quot;+ snack1.getLagertemp() + &quot;     &quot; + snack2.getLagertemp() + &quot;     &quot;+ snack3.getLagertemp());&#xD;
+			}&#xD;
+		});&#xD;
+		btnChips.setBounds(208, 113, 89, 23);&#xD;
+		panel_2.add(btnChips);&#xD;
+		&#xD;
+		btnBretzel.setEnabled(false);&#xD;
+		btnNicNacs.setEnabled(false);&#xD;
+		btnChips.setEnabled(false);&#xD;
+		&#xD;
+		formattedTextField_1_1.addKeyListener(new KeyAdapter() &#xD;
+		{&#xD;
+			public void keyPressed(KeyEvent e)&#xD;
+			{ &#xD;
+				if(formattedTextField_1_1.getText().length() == 0)&#xD;
+				{&#xD;
+					btnBretzel.setEnabled(false);&#xD;
+					btnNicNacs.setEnabled(false);&#xD;
+					btnChips.setEnabled(false);&#xD;
+				}&#xD;
+				else &#xD;
+					{&#xD;
+					btnBretzel.setEnabled(true);&#xD;
+					btnNicNacs.setEnabled(true);&#xD;
+					btnChips.setEnabled(true);&#xD;
+					}&#xD;
+			}&#xD;
+		}&#xD;
+		);&#xD;
+		&#xD;
+				&#xD;
+		&#xD;
+		JButton btnNewButton_1 = new JButton(&quot;Wein&quot;);&#xD;
+		JButton btnNewButton_2 = new JButton(&quot;Whiskey&quot;);&#xD;
+		JButton btnNewButton_3 = new JButton(&quot;Vodka&quot;);&#xD;
+		&#xD;
+	&#xD;
+&#xD;
+		&#xD;
+		&#xD;
+		table_2 = new JTable();&#xD;
+		table_2.setEnabled(false);&#xD;
+		table_2.setModel(new DefaultTableModel(&#xD;
+			new Object[][] {&#xD;
+				{&quot;Name:&quot;, &quot;Bestand:&quot;, &quot;Preis:&quot;},&#xD;
+				{name1, bestand1, preis1 + &quot; €&quot;},&#xD;
+				{name2, bestand2, preis2 + &quot; €&quot;},&#xD;
+				{name3, bestand3, preis3 + &quot; €&quot;},&#xD;
+			},&#xD;
+			new String[] {&#xD;
+				&quot;Name&quot;, &quot;Bestand&quot;, &quot;Preis&quot;&#xD;
+			}&#xD;
+		));&#xD;
+		table_2.setRowSelectionAllowed(false);&#xD;
+		table_2.setBounds(29, 40, 246, 64);&#xD;
+		panel_1.add(table_2);&#xD;
+		&#xD;
+		JRadioButton rdbtnPreis = new JRadioButton(&quot;Preis\u00E4nderung&quot;);&#xD;
+		JRadioButton rdbtnBestandserhhung = new JRadioButton(&quot;Bestandserh\u00F6hung&quot;);&#xD;
+		JRadioButton rdbtnVerkauf = new JRadioButton(&quot;Verkauf&quot;);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		JFormattedTextField formattedTextField_1 = new JFormattedTextField(NumberFormat.getNumberInstance());&#xD;
+		formattedTextField_1.setValue(0);&#xD;
+		formattedTextField_1.setText(&quot;&quot;);&#xD;
+		formattedTextField_1.setColumns(10);&#xD;
+		formattedTextField_1.getValue();&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		formattedTextField_1.setBounds(10, 151, 286, 22);&#xD;
+		panel_1.add(formattedTextField_1);&#xD;
+		&#xD;
+		formattedTextField_1.addKeyListener(new KeyAdapter() &#xD;
+		{&#xD;
+			public void keyPressed(KeyEvent e)&#xD;
+			{ &#xD;
+				if(formattedTextField_1.getText().length() == 0)&#xD;
+				{&#xD;
+					btnNewButton_1.setEnabled(false);&#xD;
+					btnNewButton_2.setEnabled(false);&#xD;
+					btnNewButton_3.setEnabled(false);&#xD;
+				}&#xD;
+				else &#xD;
+					{&#xD;
+					btnNewButton_1.setEnabled(true);&#xD;
+					btnNewButton_2.setEnabled(true);&#xD;
+					btnNewButton_3.setEnabled(true);&#xD;
+					}&#xD;
+			}&#xD;
+		}&#xD;
+		);&#xD;
+&#xD;
+		btnNewButton_3.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent arg0) &#xD;
+			{&#xD;
+				int Wert;&#xD;
+				btnNewButton_1.setVisible(false);&#xD;
+				btnNewButton_1.setEnabled(false);&#xD;
+				btnNewButton_2.setVisible(false);&#xD;
+				btnNewButton_2.setEnabled(false);&#xD;
+				Wert = ((Number) formattedTextField_1.getValue()).intValue();&#xD;
+				&#xD;
+				&#xD;
+				if (rdbtnPreis.isSelected() ) &#xD;
+				{&#xD;
+					getraenk1.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnBestandserhhung.isSelected()) &#xD;
+				{&#xD;
+					getraenk1.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnVerkauf.isSelected())&#xD;
+				{&#xD;
+					getraenk1.getraenkverkaufen(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				&#xD;
+				textArea.setVisible(true);&#xD;
+				textArea.setText(null);&#xD;
+				textArea.setText(&quot;Name:     &quot;+ name1 +&quot;     &quot;+ name2 +&quot;     &quot;+ name3 + &quot;\n&quot; +&#xD;
+								&quot;Bestand:   &quot;+ getraenk1.getBestand() +&quot;            &quot; + getraenk2.getBestand() +&quot;             &quot; + getraenk3.getBestand() + &quot;\n&quot; +&#xD;
+								&quot;Preis:     &quot;+ getraenk1.getPreis() +&quot; €&quot; +&quot;     &quot; + getraenk2.getPreis() +&quot; €&quot; +&quot;     &quot; +getraenk3.getPreis() +&quot; €&quot;);&#xD;
+&#xD;
+			}&#xD;
+		});&#xD;
+		btnNewButton_3.setBounds(10, 116, 89, 23);&#xD;
+		panel_1.add(btnNewButton_3);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		btnNewButton_2.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				int Wert;&#xD;
+				btnNewButton_1.setVisible(false);&#xD;
+				btnNewButton_1.setEnabled(false);&#xD;
+				btnNewButton_3.setVisible(false);&#xD;
+				btnNewButton_3.setEnabled(false);&#xD;
+				Wert = ((Number) formattedTextField_1.getValue()).intValue();&#xD;
+				&#xD;
+				if (rdbtnPreis.isSelected() ) &#xD;
+				{&#xD;
+					getraenk2.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnBestandserhhung.isSelected()) &#xD;
+				{&#xD;
+					&#xD;
+					getraenk2.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnVerkauf.isSelected())&#xD;
+				{&#xD;
+					getraenk2.getraenkverkaufen(Wert);&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				textArea.setVisible(true);&#xD;
+				textArea.setText(&quot;&quot;);&#xD;
+				textArea.setText(&quot;Name:     &quot;+ name1 +&quot;     &quot;+ name2 +&quot;     &quot;+ name3 + &quot;\n&quot; +&#xD;
+						&quot;Bestand:   &quot;+ getraenk1.getBestand() +&quot;            &quot; + getraenk2.getBestand() +&quot;             &quot; + getraenk3.getBestand() + &quot;\n&quot; +&#xD;
+						&quot;Preis:     &quot;+ getraenk1.getPreis() +&quot; €&quot; +&quot;     &quot; + getraenk2.getPreis() +&quot; €&quot; +&quot;     &quot; +getraenk3.getPreis() +&quot; €&quot;);&#xD;
+				&#xD;
+			}&#xD;
+		});&#xD;
+		btnNewButton_2.setBounds(109, 116, 89, 23);&#xD;
+		panel_1.add(btnNewButton_2);&#xD;
+		&#xD;
+		btnNewButton_1.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				&#xD;
+				int Wert;&#xD;
+				btnNewButton_2.setVisible(false);&#xD;
+				btnNewButton_2.setEnabled(false);&#xD;
+				btnNewButton_3.setVisible(false);&#xD;
+				btnNewButton_3.setEnabled(false);&#xD;
+				Wert = ((Number) formattedTextField_1.getValue()).intValue();&#xD;
+				&#xD;
+				&#xD;
+				if (rdbtnPreis.isSelected() ) &#xD;
+				{&#xD;
+					getraenk3.PreisVeraendern(Wert);&#xD;
+					&#xD;
+				}&#xD;
+				else if (rdbtnBestandserhhung.isSelected()) &#xD;
+				{&#xD;
+					&#xD;
+					getraenk3.bestandErhoehen(Wert);&#xD;
+				}&#xD;
+				else if (rdbtnVerkauf.isSelected())&#xD;
+				{&#xD;
+					getraenk3.getraenkverkaufen(Wert);&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					Wert = 0;&#xD;
+					textArea.setText(&quot;&quot;);&#xD;
+				}&#xD;
+				textArea.setVisible(true);&#xD;
+				textArea.setText(null);&#xD;
+				textArea.setText(&quot;Name:     &quot;+ name1 +&quot;     &quot;+ name2 +&quot;     &quot;+ name3 + &quot;\n&quot; +&#xD;
+						&quot;Bestand:   &quot;+ getraenk1.getBestand() +&quot;            &quot; + getraenk2.getBestand() +&quot;             &quot; + getraenk3.getBestand() + &quot;\n&quot; +&#xD;
+						&quot;Preis:     &quot;+ getraenk1.getPreis() +&quot; €&quot; +&quot;     &quot; + getraenk2.getPreis() +&quot; €&quot; +&quot;     &quot; +getraenk3.getPreis() +&quot; €&quot;);&#xD;
+				&#xD;
+				&#xD;
+			}&#xD;
+		});&#xD;
+		btnNewButton_1.setBounds(207, 116, 89, 23);&#xD;
+		panel_1.add(btnNewButton_1);&#xD;
+		&#xD;
+		JButton btnZurck_1 = new JButton(&quot;Zur\u00FCck&quot;);&#xD;
+		btnZurck_1.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				btnNewButton_1.setVisible(true);&#xD;
+				btnNewButton_1.setEnabled(false);&#xD;
+				btnNewButton_2.setVisible(true);&#xD;
+				btnNewButton_2.setEnabled(false);&#xD;
+				btnNewButton_3.setVisible(true);&#xD;
+				btnNewButton_3.setEnabled(false);&#xD;
+				&#xD;
+				rdbtnBestandserhhung.setSelected(false);&#xD;
+				rdbtnVerkauf.setSelected(false);&#xD;
+				rdbtnPreis.setSelected(false);&#xD;
+				formattedTextField_1.setValue(null);&#xD;
+				textArea.setText(&quot;&quot;);&#xD;
+			}&#xD;
+		});&#xD;
+		btnZurck_1.setBounds(94, 218, 89, 23);&#xD;
+		panel_1.add(btnZurck_1);&#xD;
+		&#xD;
+		rdbtnsPreis.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnsBestand.setSelected(false);&#xD;
+				rdbtnsVerkauf.setSelected(false);&#xD;
+				rdbtnsPreis.setSelected(true);&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		rdbtnsBestand.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnsBestand.setSelected(true);&#xD;
+				rdbtnsVerkauf.setSelected(false);&#xD;
+				rdbtnsPreis.setSelected(false);&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		rdbtnsVerkauf.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnsBestand.setSelected(false);&#xD;
+				rdbtnsVerkauf.setSelected(true);&#xD;
+				rdbtnsPreis.setSelected(false);&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		rdbtnPreis.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnBestandserhhung.setSelected(false);&#xD;
+				rdbtnVerkauf.setSelected(false);&#xD;
+				rdbtnPreis.setSelected(true);&#xD;
+			}&#xD;
+		});&#xD;
+		rdbtnPreis.setBounds(199, 184, 101, 23);&#xD;
+		panel_1.add(rdbtnPreis);&#xD;
+		&#xD;
+		&#xD;
+		rdbtnBestandserhhung.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnBestandserhhung.setSelected(true);&#xD;
+				rdbtnVerkauf.setSelected(false);&#xD;
+				rdbtnPreis.setSelected(false);&#xD;
+			}&#xD;
+		});&#xD;
+		rdbtnBestandserhhung.setBounds(0, 184, 115, 23);&#xD;
+		panel_1.add(rdbtnBestandserhhung);&#xD;
+		&#xD;
+		&#xD;
+		rdbtnVerkauf.addActionListener(new ActionListener() {&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				rdbtnBestandserhhung.setSelected(false);&#xD;
+				rdbtnVerkauf.setSelected(true);&#xD;
+				rdbtnPreis.setSelected(false);&#xD;
+			}&#xD;
+		});&#xD;
+		rdbtnVerkauf.setBounds(117, 184, 77, 23);&#xD;
+		panel_1.add(rdbtnVerkauf);&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		btnVerkaufG.addActionListener(new ActionListener() &#xD;
+		{&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				panel_1.setVisible(true);&#xD;
+				panel_1.setEnabled(true);&#xD;
+				panel_2.setVisible(false);&#xD;
+				panel_2.setEnabled(false);&#xD;
+				textArea_1.setVisible(false);&#xD;
+				&#xD;
+			}&#xD;
+		});&#xD;
+		btnVerkaufS.addActionListener(new ActionListener() &#xD;
+		{&#xD;
+			public void actionPerformed(ActionEvent e) &#xD;
+			{&#xD;
+				panel_2.setVisible(true);&#xD;
+				panel_2.setEnabled(true);&#xD;
+				panel_1.setVisible(false);&#xD;
+				panel_1.setEnabled(false);&#xD;
+				textArea.setVisible(false);&#xD;
+			}&#xD;
+		});&#xD;
+		&#xD;
+		btnNewButton_1.setEnabled(false);&#xD;
+		btnNewButton_2.setEnabled(false);&#xD;
+		btnNewButton_3.setEnabled(false);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_9OmekLRPEey5gfZI4zs4wQ" name="main" isStatic="true" method="_9V6AcLRPEey5gfZI4zs4wQ">
+          <ownedComment xmi:id="_9V71oLRPEey5gfZI4zs4wQ">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_9OnFoLRPEey5gfZI4zs4wQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9OnFobRPEey5gfZI4zs4wQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_9OoTwLRPEey5gfZI4zs4wQ" name="oberflaeche_getraenke" method="_9V6ngLRPEey5gfZI4zs4wQ">
+          <eAnnotations xmi:id="_9Oo60LRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_9Oo60bRPEey5gfZI4zs4wQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_9V71obRPEey5gfZI4zs4wQ">
+            <body>Create the frame.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_9Oo60rRPEey5gfZI4zs4wQ" type="_9OkCULRPEey5gfZI4zs4wQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9WAuILRPEey5gfZI4zs4wQ" name="" memberEnd="_9WAuIbRPEey5gfZI4zs4wQ _9U6h8LRPEey5gfZI4zs4wQ">
+        <ownedEnd xmi:id="_9WAuIbRPEey5gfZI4zs4wQ" name="" type="_9OkCULRPEey5gfZI4zs4wQ" association="_9WAuILRPEey5gfZI4zs4wQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9WBVMbRPEey5gfZI4zs4wQ" name="" memberEnd="_9WBVMrRPEey5gfZI4zs4wQ _9U7wEbRPEey5gfZI4zs4wQ">
+        <ownedEnd xmi:id="_9WBVMrRPEey5gfZI4zs4wQ" name="" type="_9OkCULRPEey5gfZI4zs4wQ" association="_9WBVMbRPEey5gfZI4zs4wQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9WCjUbRPEey5gfZI4zs4wQ" name="" memberEnd="_9WCjUrRPEey5gfZI4zs4wQ _9U-zYLRPEey5gfZI4zs4wQ">
+        <ownedEnd xmi:id="_9WCjUrRPEey5gfZI4zs4wQ" name="" type="_9OkCULRPEey5gfZI4zs4wQ" association="_9WCjUbRPEey5gfZI4zs4wQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9WDKYbRPEey5gfZI4zs4wQ" name="" memberEnd="_9WDKYrRPEey5gfZI4zs4wQ _9VABgLRPEey5gfZI4zs4wQ">
+        <ownedEnd xmi:id="_9WDKYrRPEey5gfZI4zs4wQ" name="" type="_9OkCULRPEey5gfZI4zs4wQ" association="_9WDKYbRPEey5gfZI4zs4wQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9JqUMLRPEey5gfZI4zs4wQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9JqUMbRPEey5gfZI4zs4wQ" name="lang"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9JriULRPEey5gfZI4zs4wQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_9S-BMLRPEey5gfZI4zs4wQ" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TC5sLRPEey5gfZI4zs4wQ" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9KzjsLRPEey5gfZI4zs4wQ" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_9K0KwLRPEey5gfZI4zs4wQ" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_9TTYYLRPEey5gfZI4zs4wQ" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_9TUmgLRPEey5gfZI4zs4wQ" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9TV0oLRPEey5gfZI4zs4wQ" name="KeyAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_9TXCwbRPEey5gfZI4zs4wQ" name="KeyEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TIZQLRPEey5gfZI4zs4wQ" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TKOcbRPEey5gfZI4zs4wQ" name="Cursor"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TNRwLRPEey5gfZI4zs4wQ" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TRjMbRPEey5gfZI4zs4wQ" name="Font"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9K0x0LRPEey5gfZI4zs4wQ" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TYQ4bRPEey5gfZI4zs4wQ" name="NumberFormat"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9K1Y4LRPEey5gfZI4zs4wQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9K1Y4bRPEey5gfZI4zs4wQ" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_9K1_8LRPEey5gfZI4zs4wQ" name="border">
+          <packagedElement xmi:type="uml:Class" xmi:id="_9USP0bRPEey5gfZI4zs4wQ" name="EtchedBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_9K1_8bRPEey5gfZI4zs4wQ" name="table">
+          <packagedElement xmi:type="uml:Class" xmi:id="_9UVTIbRPEey5gfZI4zs4wQ" name="DefaultTableModel"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TZfAbRPEey5gfZI4zs4wQ" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TatIbRPEey5gfZI4zs4wQ" name="JFormattedTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9Tb7QbRPEey5gfZI4zs4wQ" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TdJYbRPEey5gfZI4zs4wQ" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9Te-kLRPEey5gfZI4zs4wQ" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9TqkwLRPEey5gfZI4zs4wQ" name="JRadioButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9UPMgbRPEey5gfZI4zs4wQ" name="JTable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_9URowLRPEey5gfZI4zs4wQ" name="SwingConstants"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9UWhQbRPEey5gfZI4zs4wQ" name="JTextArea"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_8ZQyALRPEey5gfZI4zs4wQ">
+      <eAnnotations xmi:id="_8ZfbgLRPEey5gfZI4zs4wQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_8ZrBsLRPEey5gfZI4zs4wQ" base_Package="_8GfnALRPEey5gfZI4zs4wQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9MMDwLRPEey5gfZI4zs4wQ" base_Element="_9MJAcLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Array xmi:id="_9OnssLRPEey5gfZI4zs4wQ" dimensions="1" base_Element="_9OnFoLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TBEgLRPEey5gfZI4zs4wQ" base_Element="_9S-BMLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TFV8LRPEey5gfZI4zs4wQ" base_Element="_9TC5sLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TKOcLRPEey5gfZI4zs4wQ" base_Element="_9TIZQLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TMqsLRPEey5gfZI4zs4wQ" base_Element="_9TKOcbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TRjMLRPEey5gfZI4zs4wQ" base_Element="_9TNRwLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TSxULRPEey5gfZI4zs4wQ" base_Element="_9TRjMbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TT_cLRPEey5gfZI4zs4wQ" base_Element="_9TTYYLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TVNkLRPEey5gfZI4zs4wQ" base_Element="_9TUmgLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TXCwLRPEey5gfZI4zs4wQ" base_Element="_9TV0oLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TYQ4LRPEey5gfZI4zs4wQ" base_Element="_9TXCwbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TZfALRPEey5gfZI4zs4wQ" base_Element="_9TYQ4bRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TatILRPEey5gfZI4zs4wQ" base_Element="_9TZfAbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9Tb7QLRPEey5gfZI4zs4wQ" base_Element="_9TatIbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TdJYLRPEey5gfZI4zs4wQ" base_Element="_9Tb7QbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9TeXgLRPEey5gfZI4zs4wQ" base_Element="_9TdJYbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9Tp9sLRPEey5gfZI4zs4wQ" base_Element="_9Te-kLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9UPMgLRPEey5gfZI4zs4wQ" base_Element="_9TqkwLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9URBsLRPEey5gfZI4zs4wQ" base_Element="_9UPMgbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9USP0LRPEey5gfZI4zs4wQ" base_Element="_9URowLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9UVTILRPEey5gfZI4zs4wQ" base_Element="_9USP0bRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9UWhQLRPEey5gfZI4zs4wQ" base_Element="_9UVTIbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9UaLoLRPEey5gfZI4zs4wQ" base_Element="_9UWhQbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9UwJ4LRPEey5gfZI4zs4wQ" base_Element="_9Uvi0LRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9UxYALRPEey5gfZI4zs4wQ" base_Element="_9UwJ4bRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9Ux_ELRPEey5gfZI4zs4wQ" base_Element="_9UxYAbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9UymILRPEey5gfZI4zs4wQ" base_Element="_9Ux_EbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9Uz0QbRPEey5gfZI4zs4wQ" base_Element="_9Uz0QLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U0bULRPEey5gfZI4zs4wQ" base_Element="_9Uz0QrRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U1pcLRPEey5gfZI4zs4wQ" base_Element="_9U1CYLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U23kLRPEey5gfZI4zs4wQ" base_Element="_9U2QgLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U4FsLRPEey5gfZI4zs4wQ" base_Element="_9U3eoLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U4swLRPEey5gfZI4zs4wQ" base_Element="_9U4FsbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U564LRPEey5gfZI4zs4wQ" base_Element="_9U5T0LRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U7wELRPEey5gfZI4zs4wQ" base_Element="_9U6h8LRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U8XILRPEey5gfZI4zs4wQ" base_Element="_9U7wEbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9U_acLRPEey5gfZI4zs4wQ" base_Element="_9U-zYLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_9VAokLRPEey5gfZI4zs4wQ" base_Element="_9VABgLRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9WBVMLRPEey5gfZI4zs4wQ" base_Element="_9WAuILRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9WCjULRPEey5gfZI4zs4wQ" base_Element="_9WBVMbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9WDKYLRPEey5gfZI4zs4wQ" base_Element="_9WCjUbRPEey5gfZI4zs4wQ"/>
+  <UMLLabProfile:Reference xmi:id="_9WDxcLRPEey5gfZI4zs4wQ" base_Element="_9WDKYbRPEey5gfZI4zs4wQ"/>
+</xmi:XMI>
