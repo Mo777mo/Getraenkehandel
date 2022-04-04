@@ -9,12 +9,12 @@ public class Getraenk extends Artikel
 	public Getraenk(){
 		super();
 	}
-	public Getraenk(String name, double preis, int bestand, double lagertemp){
+	public Getraenk(String name, int preis, int bestand, double lagertemp){
 		super(name, preis, bestand, lagertemp);
 	}
 
 	protected String name;
-	protected double preis;
+	protected int preis;
 	protected int bestand;
 	
 	
@@ -71,6 +71,7 @@ public class Getraenk extends Artikel
 	public int getBestand() {
 		return bestand;
 	}
+
 	
 	
 	

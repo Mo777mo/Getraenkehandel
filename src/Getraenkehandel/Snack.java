@@ -7,14 +7,14 @@ public class Snack extends Artikel {
 	public Snack(){
 		super();
 	}
-	public Snack(String name, double preis, int bestand, double lagertemp){
+	public Snack(String name, int preis, int bestand, int lagertemp){
 		super(name, preis, bestand, lagertemp);
 	}
 	
 	protected String name;
-	protected double preis;
+	protected int preis;
 	protected int bestand;
-	protected double lagertemp;
+	protected int lagertemp;
 	
 	
 	// setzen der Werte Name,preis und Bestand
@@ -30,7 +30,7 @@ public class Snack extends Artikel {
 		this.bestand = bestand;
 	}
 	
-	public void setLagertemp(double lagertemp){
+	public void setLagertemp(int lagertemp){
 		this.lagertemp = lagertemp;
 	}
 	
